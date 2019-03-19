@@ -318,6 +318,14 @@ td i {
   }
   #navtext {
     display: flex;
+    flex-direction:column;
+    align-items: flex-end;
+    justify-items: space-between;
+    height: 80px;
+  }
+
+  #navtext div {
+    flex: 1 1 auto;
   }
 
 
@@ -424,6 +432,14 @@ td i {
   .box7, .box8 {
     flex: 1 1 auto;
     max-width: 30%;
+  }
+
+  #navtext {
+    display: flex;
+    flex-direction:row;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 380px;
   }
 
 }
