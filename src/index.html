@@ -7,46 +7,46 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" media="screen" href="normalize.css">
   <link rel="stylesheet" type="text/css" media="screen" href="style.css">
-  <script src="js/jquery-3.3.1.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/jquery.scrollto@2.1.2/jquery.scrollTo.min.js"></script>
   <script src="js/main.js"></script>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 </head>
 <body>
 
-  <div class="header">
+  <nav>
+    <div id="navbar">
+      <img src="img/navbar.svg" onclick="myNavFunction()" />
+    </div>
+    <div id="navtext">
+      <span class="work-2" onclick="myScrollFunction('.nav-work')">WORK</span>
+      &emsp;&emsp;<span class="about-2" onclick="myScrollFunction('.nav-about')">ABOUT</span>
+      <!-- &emsp;&emsp;<span class="contact-2">CONTACT</span>       -->
+    </div>
+    <div class="nav-links">
+      <ul>
+      <li><span class="work" onclick="myScrollFunction('.nav-work')">WORK</span></li>
+      <li><span class="about" onclick="myScrollFunction('.nav-about')">ABOUT</a></span></li>
+        <!-- <li><span class="contact">CONTACT</a></span></li> -->
+      </ul>
+    </div>
+  </nav>
+
+  <div class="landing">
     <div class="logo">
       <img src="img/logo_AD.svg" /> 
       <!-- col5... logo_line2-->
     </div>
-    <div id="navbar">
-        <img src="img/navbar.svg" onclick="myNavFunction()" />
-    </div>
-    <div id="navtext">
-        <span class="work-2" onclick="myScrollFunction('.nav-work')">WORK</span>
-        &emsp;&emsp;<span class="about-2" onclick="myScrollFunction('.nav-about')">ABOUT</span>
-        <!-- &emsp;&emsp;<span class="contact-2">CONTACT</span>       -->
-    </div>
-    <div class="nav-links">
-      <ul>
-          <li><span class="work" onclick="myScrollFunction('.nav-work')">WORK</span></li>
-          <li><span class="about" onclick="myScrollFunction('.nav-about')">ABOUT</a></span></li>
-          <!-- <li><span class="contact">CONTACT</a></span></li> -->
-      </ul>
-    </div>
-  </div>
-
-
-
-  <div class="welcome-message">
-    <p>Hi! <img class="hand" src="img/wave.svg"></p>
-    <p>
-      I'm Alex Diwa.
-      </p>
+    <div class="welcome-message">
+      <p>Hi! <img class="hand" src="img/wave.svg"></p>
       <p>
-      I'm a full-stack web developer based in Sydney, Australia.
-    </p>
+        I'm Alex Diwa.
+        </p>
+        <p>
+        I'm a full-stack web developer based in Sydney, Australia.
+      </p>
+    </div>
   </div>
+
+
 
   <div class="links">
     <i class="fab fa-github"></i>
@@ -80,7 +80,7 @@
       </div>
     </div>
 
-    <span class="scrolltop" onclick="myScrollFunction('.header')">BACK TO TOP</span>
+    <span class="scrolltop" onclick="myScrollFunction('.landing')">BACK TO TOP</span>
   </div>
   <div class="spacer">
     </div>
@@ -116,7 +116,7 @@
       <img class="profile" src="img/profile.png">
     </div>
   </div>
-    <span class="scrolltop" onclick="myScrollFunction('.header')">BACK TO TOP</span>
+    <span class="scrolltop" onclick="myScrollFunction('.landing')">BACK TO TOP</span>
    </div>
   <div class="spacer">
     </div>

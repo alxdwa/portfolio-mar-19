@@ -21,14 +21,18 @@ body {
 }
 
 
-.header {
+.landing {
   margin: 0;
   border: 0px solid black;
+  width: 100%;
+  width: 100vw;
   padding: 30px;
   display: flex;
-  flex-direction: row;
-  align-items: flex-end;
-  justify-content: space-between;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  position: relative;
 }
 
 .hand {
@@ -37,6 +41,7 @@ body {
 
 .logo {
   width: 150px;
+  margin-bottom: 50px;
 }
 
 #navbar {
@@ -50,6 +55,16 @@ body {
 #navtext {
   display: none;
   z-index: 2;
+  position:fixed;
+  top: 10%;
+  right: 5%;
+  font-family: 'Fira Mono';
+  /* font-family: 'Konstant Grotesk'; */
+  /* text-shadow: 1px 0px; */
+  letter-spacing: 3px;
+  color: #FA3325;
+  text-decoration: none;
+  font-size: 0.8em;
 }
 
 .nav-links {
@@ -86,7 +101,7 @@ ul, li {
 
 .welcome-message {
   margin: 0;
-  padding: 30px;
+  padding: 0;
   /* padding-top: 0; */
   border: 0px solid black;
   font-size: 18pt;
@@ -192,7 +207,7 @@ h2 {
   text-transform:lowercase;
 }
 
-span {
+span, #navbar {
   color: #FA3325;
   cursor: pointer;
   letter-spacing: 2px;
@@ -227,6 +242,10 @@ span:active {
     background-position-y: 100px;
     /* background-position-x: 300px; */
   }
+  /* .landing {
+    display: flex;
+    flex-direction: row;
+  } */
   .logo {
     width: 20%;
     margin-left: 2%;
@@ -260,16 +279,6 @@ span:active {
   }
   #navtext {
     display: flex;
-    position:fixed;
-    top: 10%;
-    right: 5%;
-    font-family: 'Fira Mono';
-    /* font-family: 'Konstant Grotesk'; */
-    /* text-shadow: 1px 0px; */
-    letter-spacing: 3px;
-    color: #FA3325;
-    text-decoration: none;
-    font-size: 0.8em;
   }
 
 
