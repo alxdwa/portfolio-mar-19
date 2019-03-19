@@ -59,13 +59,13 @@ Wireframe for desktop. Dimensions of 1024 x 768 used as a guide.
 
 A few different logo options were considered after sketching out some designs (see composite image below). I aimed to design something that was youthful and playful, and that represented myself as much as possible. Considering this, I went for a hand-drawn feel using free-form, organic shapes and lines. I experimented with colour, but ultimately decided on a cool-tone gradient to fit the overall mood and theme of the page. The logo created is adaptable for future projects and for use in different contexts.
 
-![logo_options](https://github.com/alxdwa/portfolio-mar-19/blob/master/docs/4_logo_design.png)
+![logo_options](https://github.com/alxdwa/portfolio-mar-19/blob/master/docs/4_logo_design2.png)
 
 #### Page Design Elements ####
 
 While brainstorming, I listed words that I wanted to describe the look and feel of the website. These include: fresh, young, modern, abstract, open, futuristic, space, and 90s and early 2000s nostalgia. I began sketching based on these desriptive words and from the moodboard that I compiled in Pinterest. Below is a sample of these sketches. I wanted to make sure that the page kept a light and open feel, so I employed these motifs sparingly throughout the page. 
 
-![design_elements](https://github.com/alxdwa/portfolio-mar-19/blob/master/docs/3_design_elements.png)
+![design_elements](https://github.com/alxdwa/portfolio-mar-19/blob/master/docs/3_design_elements2.png)
 
 ##### Colour and Font #####
 
