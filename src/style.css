@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Mono:400,500,700');
+@font-face {
+  font-family: Konstant Grotesk;
+  src: url('img/KonstantGrotesk.otf')
+}
+
+/* ::-webkit-scrollbar { 
+  display: none; 
+} */
+
+body {
+  background: url('img/linebg1.svg') no-repeat #EBDCFF;
+  /* greybg  bg_edit4.. purple: EBDCFF; blue: EBEAF0, pink/red:FEE7EE FFF1EC  */
+  background-size: 150%;
+  margin: 0;
+  font-family: 'Fira Mono', monospace;
+  font-weight: 400;
+  letter-spacing: 0px;
+  color: #0000FF;
+  font-size: 15pt;
+}
+
+
+.header {
+  margin: 0;
+  border: 0px solid black;
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.hand {
+  height: 1em;
+}
+
+.logo {
+  width: 150px;
+}
+
+#navbar {
+  width: 60px;
+  z-index: 2;
+}
+
+#navtext {
+  display: none;
+  z-index: 2;
+}
+
+.nav-links {
+  background: url('img/navbg.svg') no-repeat center transparent;
+  background-size:90%;
+  margin: 0;
+  border: 0px solid black;
+  display:none;
+  z-index: 1;
+  position: fixed;
+  top: 0px;
+  left:0px;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  font-size: 1.8em;
+  /* font-family: 'Konstant Grotesk';
+  text-shadow: 3px 0px; */
+  font-family: 'Fira Mono';
+  letter-spacing: 5px;
+  font-weight: 500;
+  text-transform: lowercase;
+}
+
+ul, li {
+  list-style: none;
+  margin: auto;
+  padding: 0;
+}
+
+.nav-links ul, .nav-links li {
+  line-height: 2em;
+}
+
+.welcome-message {
+  margin: 0;
+  padding: 30px;
+  /* padding-top: 0; */
+  border: 0px solid black;
+  font-size: 18pt;
+}
+
+.welcome-message p {
+  margin-bottom: 20px;
+}
+
+.sticky {
+  position: fixed;
+  top: 5%;
+  right: 5%;
+}
+
+.links {
+  margin: 0;
+  padding: 30px;
+  border: 0px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  font-size: 1em;
+  margin-top: 0;
+  width: 100%;
+  position: absolute;
+  bottom: 5px;
+  box-sizing: border-box;
+  color: #FA3325;
+}
+
+
+p {
+  margin: 0;
+
+}
+
+.spacer {
+  height: 10vh;
+  border: 0px solid black;
+}
+.nav-work-bg {
+
+  background: url('img/workbg.svg') no-repeat left transparent;
+  background-size: 100% ;
+  background-position-x: -50px;
+  background-position-y: 100px;
+}
+.nav-about-bg {
+
+  background: url('img/aboutbg.svg') no-repeat bottom transparent;
+  background-size: 70% ;
+  background-position-x: 70%;
+  background-position-y: 0%;
+
+}
+
+.nav-work, .nav-about {
+  font-size: 10pt;
+  margin: 0;
+  padding: 5%;
+  border: 0px solid black;
+  position: relative;
+}
+
+.scrolltop {
+  position: absolute;
+  bottom: 0px;
+  right: 5.5%;
+  display: inline;
+  font-size: 1.2em;
+}
+
+.nav-about {
+  background: url('img/linebg2.svg') no-repeat bottom right transparent;
+  background-position-x: 90%;
+  background-position-y: 0px;
+  background-size: contain ;
+}
+
+.nav-work-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-about-content {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.visible {
+  display: flex;
+}
+
+h2 {
+  padding-bottom: 30px;
+  font-family: 'Fira Mono';
+  /* font-family: 'Konstant Grotesk';
+  text-shadow: 1px 0px; */
+  letter-spacing: 3px;
+  text-transform:lowercase;
+}
+
+span {
+  color: #FA3325;
+  cursor: pointer;
+  letter-spacing: 2px;
+}
+
+span:active {
+  color: #CCCCCC;
+}
+
+.box4 {
+  order: 2;
+}
+
+.box5 {
+  order: 3;
+}
+
+.box6 {
+  align-self: center;
+  width: 70%;
+  max-width: 200px;
+  order: 1;
+}
+
+.profile {
+  width: 100%;
+}
+
+@media screen and (min-width: 550px) {
+  body {
+    background-size: contain;
+    background-position-y: 100px;
+    /* background-position-x: 300px; */
+  }
+  .logo {
+    width: 20%;
+    margin-left: 2%;
+    margin-top: 3%;
+  }
+  .welcome-message {
+    width: 40%;
+    margin: auto;
+    font-size: 3vh;
+  }
+  .links {
+    font-size: 1em;
+    justify-content: flex-start;
+    position: absolute;
+    bottom: 10px;
+
+  }
+  .links i {
+    padding: 30px;
+    color: #FA3325;
+  }
+  .header {
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 40px;
+    padding-bottom: 0px;
+  }
+
+  #navbar {
+    display: none;
+  }
+  #navtext {
+    display: flex;
+    position:fixed;
+    top: 10%;
+    right: 5%;
+    font-family: 'Fira Mono';
+    /* font-family: 'Konstant Grotesk'; */
+    /* text-shadow: 1px 0px; */
+    letter-spacing: 3px;
+    color: #FA3325;
+    text-decoration: none;
+    font-size: 0.8em;
+  }
+
+
+  .nav-work, .nav-about {
+    font-size: 10pt;
+  }
+
+  h2 {
+    font-size: 2em;
+  }
+
+  .nav-work-bg {
+
+    background: url('img/workbg.svg') no-repeat left transparent;
+    background-size: 100% ;
+    background-position-x: -100px;
+  }
+  .nav-about-bg {
+    background: url('img/aboutbg.svg') no-repeat top transparent;
+    background-size: 50% ;
+    background-position-x: 70%;
+    background-position-y: 20%;
+  }
+
+  .nav-links {
+    display: none;
+  }
+
+  ul, li {
+    margin: 0;
+    padding: 0;
+  }
+
+  .spacer {
+    /* height: 100vh; */
+    height: 30vh;
+  }
+}
+
+@media screen and (min-width: 769px) {
+
+  .nav-work-content, .nav-about-content {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-around;
+    border: 0px solid black;
+    padding: 10px;
+  }
+
+
+  .box1 {
+    padding-right: 20px;
+    flex: 1 1 auto;
+    width: 30%;
+  }
+
+  .box2 {
+    padding-left: 20px;
+    flex: 1 1 auto;
+    width: 70%;
+  }
+  
+  .box3 {
+    display: none;
+    
+  }
+
+  .box4 {
+    flex: 1 1 auto;
+    width: 40%;
+    padding-left: 20px;
+    padding-right: 20px;
+    order: 1;
+  }
+
+  .box5 {
+    flex: 1 1 auto;
+    width: 20%;
+    padding-left: 20px;
+    padding-right: 20px;
+    order: 2;
+  }
+
+  .box6 {
+    flex: 1 1 auto;
+    width: 30%;
+    padding-left: 20px;
+    padding-right: 20px;
+    max-width: 200px;
+    order: 3;
+  }
+
+}
+@media screen and (max-height: 650px) {
+  .links {
+    position: relative;
+  }
+
+}
+
+@media screen and (min-height: 650px) {
+  .spacer {
+    height: 30vh;
+  }
+}
