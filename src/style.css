@@ -10,7 +10,7 @@
 } */
 
 body {
-  background: url('img/linebg1.svg') no-repeat #EEEEEE;
+  background: url('img/linebg1.svg') no-repeat rgb(240, 234, 239);
   /* greybg  bg_edit4.. purple: EBDCFF; blue: EBEAF0, pink/red:FEE7EE FFF1EC  */
   background-size: 150%;
   margin: 0;
@@ -69,7 +69,7 @@ body {
 }
 
 .nav-links {
-  background: url('img/navbg.svg') no-repeat center #EBDCFF;
+  background: url('img/navbg.svg') no-repeat center rgb(240, 234, 239);
   background-size:90%;
   margin: 0;
   border: 0px solid black;
@@ -106,6 +106,7 @@ ul, li {
   /* padding-top: 0; */
   border: 0px solid black;
   font-size: 18pt;
+  line-height: 1.5em;
 }
 
 .welcome-message p {
@@ -147,17 +148,17 @@ p {
 }
 .nav-work-bg {
 
-  background: url('img/workbg.svg') no-repeat left transparent;
-  background-size: 100% ;
-  background-position-x: -100px;
-  background-position-y: 200px;
+  background: url('img/workbg2.svg') no-repeat left transparent;
+  background-size: 180% ;
+  background-position-x: 0px;
+  background-position-y: 100px;
 }
 .nav-about-bg {
 
   background: url('img/aboutbg.svg') no-repeat bottom transparent;
   background-size: 70% ;
   background-position-x: 70%;
-  background-position-y: 0%;
+  background-position-y: 20%;
 
 }
 
@@ -166,7 +167,7 @@ p {
   background: url('img/linebg3.svg') no-repeat bottom transparent;
   background-size: 70% ;
   background-position-x: 70%;
-  background-position-y: 0%;
+  background-position-y: 100px;
 }
 
 .nav-contact-bg div:nth-of-type(3) {
@@ -179,12 +180,12 @@ p {
   padding: 5%;
   border: 0px solid black;
   position: relative;
-  line-height: 1.3em;
+  line-height: 1.6em;
 }
 
 .scrolltop {
   position: absolute;
-  bottom: 0px;
+  bottom: -50px;
   right: 5.5%;
   display: inline;
   font-size: 1.2em;
@@ -210,10 +211,11 @@ p {
 h2 {
   padding-bottom: 30px;
   font-family:  'Fira Mono';
+  font-size: 2.5em;
   /* font-family: 'Konstant Grotesk';*/
   letter-spacing: 4px;
   font-weight: 700;
-  text-transform:uppercase;
+  text-transform:lowercase;
 }
 
 span, #navbar {
@@ -285,9 +287,10 @@ td i {
     margin-top: 3%;
   }
   .welcome-message {
-    width: 40%;
+    width: 50%;
     margin: auto;
-    font-size: 3vh;
+    font-size: 3.5vh;
+
   }
   .links {
     font-size: 1em;
@@ -323,19 +326,19 @@ td i {
   }
 
   h2 {
-    font-size: 4em;
+    font-size: 3.5em;
   }
 
   .nav-work-bg {
 
-    background: url('img/workbg.svg') no-repeat left transparent;
+    background: url('img/workbg2.svg') no-repeat left transparent;
     background-size: 100% ;
-    background-position-x: -200px;
+    background-position-x: 0px;
   }
   .nav-about-bg {
     background: url('img/aboutbg.svg') no-repeat top transparent;
     background-size: 50% ;
-    background-position-x: 70%;
+    background-position-x: 60%;
     background-position-y: 20%;
   }
 
