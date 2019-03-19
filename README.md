@@ -29,15 +29,35 @@ This portfolio was built using HTML5, CSS3 and jQuery.
 
 The portfolio needs to be deployed within the timeframe of one week. 
 
-### Trello & Moodboards ###
+### Trello Brainstorming ###
+
+![trello_1_brainstorm](https://github.com/alxdwa/portfolio/blob/master/docs/1_trello_brainstorm.png)
+![trello 2_workflow](https://github.com/alxdwa/portfolio/blob/master/docs/5_trello_workflow.png)
+
+### Moodboard ###
+
+![moodboard](https://github.com/alxdwa/portfolio/blob/master/docs/2_pinterest_moodboard.png)
+
 
 ### Wireframes ### 
+
+#### Mobile #### 
+
+![mobile_wireframe](https://github.com/alxdwa/portfolio/blob/master/docs/6_wireframe_mobile.png)
+
+#### Desktop ####
+
+![desktop_wireframe](https://github.com/alxdwa/portfolio/blob/master/docs/7_wireframe_desktop.png)
 
 ### Design Process ### 
 
 #### Logo Design ####
 
+![logo_options](https://github.com/alxdwa/portfolio/blob/master/docs/4_logo_design.png)
+
 #### Page Design Elements ####
+
+![design_elements](https://github.com/alxdwa/portfolio/blob/master/docs/3_design_elements.png)
 
 #### Code Structure ####
 
