@@ -4,18 +4,20 @@
   src: url('img/KonstantGrotesk.otf')
 }
 
+
 /* ::-webkit-scrollbar { 
   display: none; 
 } */
 
 body {
-  background: url('img/linebg1.svg') no-repeat #EBDCFF;
+  background: url('img/linebg1.svg') no-repeat #EEEEEE;
   /* greybg  bg_edit4.. purple: EBDCFF; blue: EBEAF0, pink/red:FEE7EE FFF1EC  */
   background-size: 150%;
   margin: 0;
+  padding: 0;
   font-family: 'Fira Mono', monospace;
-  font-weight: 400;
-  letter-spacing: 0px;
+  font-weight: 500;
+  letter-spacing: 1px;
   color: #0000FF;
   font-size: 15pt;
 }
@@ -25,7 +27,6 @@ body {
   margin: 0;
   border: 0px solid black;
   width: 100%;
-  width: 100vw;
   padding: 30px;
   display: flex;
   flex-direction: column;
@@ -58,8 +59,8 @@ body {
   position:fixed;
   top: 10%;
   right: 5%;
-  font-family: 'Fira Mono';
-  /* font-family: 'Konstant Grotesk'; */
+  /* font-family: 'Fira Mono'; */
+  font-family: 'Fira Mono', monospace;
   /* text-shadow: 1px 0px; */
   letter-spacing: 3px;
   color: #FA3325;
@@ -68,7 +69,7 @@ body {
 }
 
 .nav-links {
-  background: url('img/navbg.svg') no-repeat center transparent;
+  background: url('img/navbg.svg') no-repeat center #EBDCFF;
   background-size:90%;
   margin: 0;
   border: 0px solid black;
@@ -80,13 +81,13 @@ body {
   width: 100%;
   height: 100%;
   text-align: center;
-  font-size: 1.8em;
-  /* font-family: 'Konstant Grotesk';
-  text-shadow: 3px 0px; */
-  font-family: 'Fira Mono';
+  font-size: 1.5em;
+  font-family: 'Fira Mono', monospace;
+  /* text-shadow: 3px 0px; */
+  /* font-family: 'Fira Mono'; */
   letter-spacing: 5px;
-  font-weight: 500;
-  text-transform: lowercase;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
 ul, li {
@@ -148,8 +149,8 @@ p {
 
   background: url('img/workbg.svg') no-repeat left transparent;
   background-size: 100% ;
-  background-position-x: -50px;
-  background-position-y: 100px;
+  background-position-x: -100px;
+  background-position-y: 200px;
 }
 .nav-about-bg {
 
@@ -160,12 +161,25 @@ p {
 
 }
 
-.nav-work, .nav-about {
+.nav-contact-bg {
+
+  background: url('img/linebg3.svg') no-repeat bottom transparent;
+  background-size: 70% ;
+  background-position-x: 70%;
+  background-position-y: 0%;
+}
+
+.nav-contact-bg div:nth-of-type(3) {
+  height: 100vh;
+}
+
+.nav-work, .nav-about, .nav-contact {
   font-size: 10pt;
   margin: 0;
   padding: 5%;
   border: 0px solid black;
   position: relative;
+  line-height: 1.3em;
 }
 
 .scrolltop {
@@ -175,20 +189,15 @@ p {
   display: inline;
   font-size: 1.2em;
 }
-
+/* 
 .nav-about {
   background: url('img/linebg2.svg') no-repeat bottom right transparent;
-  background-position-x: 90%;
-  background-position-y: 0px;
-  background-size: contain ;
-}
+  background-position-x: 100%;
+  background-position-y: 150px;
+  background-size: 50% ;
+} */
 
-.nav-work-content {
-  display: flex;
-  flex-direction: column;
-}
-
-.nav-about-content {
+.nav-work-content, .nav-about-content, .nav-contact-content {
   display: flex;
   flex-direction: column;
 }
@@ -200,21 +209,27 @@ p {
 
 h2 {
   padding-bottom: 30px;
-  font-family: 'Fira Mono';
-  /* font-family: 'Konstant Grotesk';
-  text-shadow: 1px 0px; */
-  letter-spacing: 3px;
-  text-transform:lowercase;
+  font-family:  'Fira Mono';
+  /* font-family: 'Konstant Grotesk';*/
+  letter-spacing: 4px;
+  font-weight: 700;
+  text-transform:uppercase;
 }
 
 span, #navbar {
   color: #FA3325;
   cursor: pointer;
-  letter-spacing: 2px;
+  letter-spacing: 4px;
+  font-family: 'Konstant Grotesk';
+  text-shadow: 1px 0px;
+}
+
+.nav-links span{
+  text-shadow: 2px 0px;
 }
 
 span:active {
-  color: #CCCCCC;
+  color: #F39CFF;
 }
 
 .box4 {
@@ -232,9 +247,27 @@ span:active {
   order: 1;
 }
 
+.box7, .box8 {
+  padding: 40px;
+}
+
 .profile {
   width: 100%;
 }
+
+td {
+  color: #FA3325;
+  font-size: 1em;
+  padding-top: 0;
+  padding-right: 20px;
+  padding-bottom: 10px;
+}
+
+td i {
+  font-size: 3em;
+  padding-bottom: 15px;
+}
+
 
 @media screen and (min-width: 550px) {
   body {
@@ -267,6 +300,9 @@ span:active {
     padding: 30px;
     color: #FA3325;
   }
+
+
+
   .header {
     justify-content: space-between;
     align-items: flex-start;
@@ -287,20 +323,26 @@ span:active {
   }
 
   h2 {
-    font-size: 2em;
+    font-size: 4em;
   }
 
   .nav-work-bg {
 
     background: url('img/workbg.svg') no-repeat left transparent;
     background-size: 100% ;
-    background-position-x: -100px;
+    background-position-x: -200px;
   }
   .nav-about-bg {
     background: url('img/aboutbg.svg') no-repeat top transparent;
     background-size: 50% ;
     background-position-x: 70%;
     background-position-y: 20%;
+  }
+
+  .nav-contact-bg {
+    background-size: 50% ;
+    /* background-position-x: 70%;
+    background-position-y: 20%; */
   }
 
   .nav-links {
@@ -320,13 +362,17 @@ span:active {
 
 @media screen and (min-width: 769px) {
 
-  .nav-work-content, .nav-about-content {
+  .nav-work-content, .nav-about-content, .nav-contact-content {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-around;
     border: 0px solid black;
     padding: 10px;
+  }
+
+  .nav-contact-content {
+    justify-content: flex-start;
   }
 
 
@@ -370,6 +416,11 @@ span:active {
     padding-right: 20px;
     max-width: 200px;
     order: 3;
+  }
+
+  .box7, .box8 {
+    flex: 1 1 auto;
+    max-width: 30%;
   }
 
 }

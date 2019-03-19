@@ -6,10 +6,10 @@
   <title>alex diwa</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" media="screen" href="normalize.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" media="screen" href="style.css">
   <script src="js/main.js"></script>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-</head>
+ </head>
 <body>
 
   <nav>
@@ -19,13 +19,14 @@
     <div id="navtext">
       <span class="work-2" onclick="myScrollFunction('.nav-work')">WORK</span>
       &emsp;&emsp;<span class="about-2" onclick="myScrollFunction('.nav-about')">ABOUT</span>
-      <!-- &emsp;&emsp;<span class="contact-2">CONTACT</span>       -->
+      &emsp;&emsp;<span class="contact-2" onclick="myScrollFunction('.nav-contact')">CONTACT</span>      
     </div>
     <div class="nav-links">
       <ul>
       <li><span class="work" onclick="myScrollFunction('.nav-work')">WORK</span></li>
       <li><span class="about" onclick="myScrollFunction('.nav-about')">ABOUT</a></span></li>
-        <!-- <li><span class="contact">CONTACT</a></span></li> -->
+      <li><span class="contact" onclick="myScrollFunction('.nav-contact')">CONTACT</a></span></li>
+      <!-- <li><span class="contact">CONTACT</a></span></li> -->
       </ul>
     </div>
   </nav>
@@ -118,15 +119,54 @@
   </div>
     <span class="scrolltop" onclick="myScrollFunction('.landing')">BACK TO TOP</span>
    </div>
-  <div class="spacer">
-    </div>
+ 
 </div>
-  <!-- <div class="nav-contact">
-      <h2>CONTACT</h2>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti vel, ea ad porro placeat libero, repellendus aperiam repudiandae eaque ipsa accusantium natus laborum? Tenetur ex optio illo amet asperiores quaerat.</p>
-      <p><span class="scrolltop">BACK TO TOP</span></p>  
+
+<div class="nav-contact-bg">
+  <div class="spacer">
+  </div>
+  <div class="nav-contact">
+    <h2>CONTACT</h2>
+    <div class="nav-contact-content">
+      <div class="box7">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti vel, ea ad porro placeat libero, repellendus aperiam repudiandae eaque ipsa accusantium natus laborum? Tenetur ex optio illo amet asperiores quaerat.</p>
+      </div>
+      <div class="box8">
+          <table>
+            <tr>
+              <td>
+                <i class="fab fa-github"></i>
+                <br>github
+              </td>
+              <td>
+                <i class="fab fa-twitter"></i>
+                <br>twitter
+              </td>
+                <td>
+                  <i class="fab fa-medium-m"></i>
+                  <br>medium
+                </td>
+            </tr>
+            <tr>
+              <td>
+                <i class="fab fa-linkedin-in"></i>
+                <br>linkedin
+              </td>
+              <td>
+              <i class="far fa-envelope"></i>
+              <br>email
+              </td>
+            </tr>
+          </table>
+      </div>
+    </div>
+    <span class="scrolltop" onclick="myScrollFunction('.landing')">BACK TO TOP</span>
   </div>
   <div class="spacer">
-  </div> -->
+  </div>
+  
+</div>
+
+
 </body>
 </html>
