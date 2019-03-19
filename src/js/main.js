@@ -1,47 +1,53 @@
-$(document).ready(function() {
+function myScrollFunction(item) {
+  var elmnt = document.querySelector(item);
+  elmnt.scrollIntoView({block: 'start', behavior: 'smooth'});
+}
 
-  $('#navbar').click(function() {
-    $('.nav-links').toggleClass('visible');
-  });
+function myNavFunction() {
+  var element = document.querySelector('.nav-links');
+  element.classList.toggle("visible");
+}
 
-  $('.work').click(function() {
-    $(window).scrollTo('.nav-work', {duration:500});
-    $('.nav-links').toggleClass('visible');
-  });
+// $(document).ready(function() {
 
-  $('.about').click(function() {
-    $(window).scrollTo('.nav-about', {duration:500});
-    $('.nav-links').toggleClass('visible');
-  });
+//   $('#navbar').click(function() {
+//     $('.nav-links').toggleClass('visible');
+//   });
 
-  $('.work-2').click(function() {
-    $(window).scrollTo('.nav-work', {duration:500});
-  });
+//   $('.work').click(function() {
+//     $(window).scrollTo('.nav-work', {duration:500});
+//     $('.nav-links').toggleClass('visible');
+//   });
 
-  $('.about-2').click(function() {
-    $(window).scrollTo('.nav-about', {duration:500});
-  });
+//   $('.about').click(function() {
+//     $(window).scrollTo('.nav-about', {duration:500});
+//     $('.nav-links').toggleClass('visible');
+//   });
+
+//   $('.work-2').click(function() {
+//     $(window).scrollTo('.nav-work', {duration:500});
+//   });
+
+//   $('.about-2').click(function() {
+//     $(window).scrollTo('.nav-about', {duration:500});
+//   });
   
-  $('.scrolltop').click(function() {
-    $(window).scrollTo((0, 0), {duration:500});
-  });
+//   $('.scrolltop').click(function() {
+//     $(window).scrollTo((0, 0), {duration:500});
+//   });
 
 
-  window.onscroll = function() {myFunction()};
+//   window.onscroll = function() {myFunction()};
 
-  var navbar = document.getElementById("navbar");
-  var sticky = navbar.offsetTop;
+//   var navbar = document.getElementById("navbar");
+//   var sticky = navbar.offsetTop;
 
-  function myFunction() {
-    if (window.pageYOffset >= sticky) {
-      navbar.classList.add("sticky");
-    } else {
-      navbar.classList.remove("sticky");
-    }
-  }
+//   function myFunction() {
+//     if (window.pageYOffset >= sticky) {
+//       navbar.classList.add("sticky");
+//     } else {
+//       navbar.classList.remove("sticky");
+//     }
+//   }
 
-
-  
-
-
-});
+// });

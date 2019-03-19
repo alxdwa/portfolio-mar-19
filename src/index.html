@@ -20,17 +20,17 @@
       <!-- col5... logo_line2-->
     </div>
     <div id="navbar">
-        <img src="img/navbar.svg" />
+        <img src="img/navbar.svg" onclick="myNavFunction()" />
     </div>
     <div id="navtext">
-        <span class="work-2">WORK</span>
-        &emsp;&emsp;<span class="about-2">ABOUT</span>
+        <span class="work-2" onclick="myScrollFunction('.nav-work')">WORK</span>
+        &emsp;&emsp;<span class="about-2" onclick="myScrollFunction('.nav-about')">ABOUT</span>
         <!-- &emsp;&emsp;<span class="contact-2">CONTACT</span>       -->
     </div>
     <div class="nav-links">
       <ul>
-          <li><span class="work">WORK</span></li>
-          <li><span class="about">ABOUT</a></span></li>
+          <li><span class="work" onclick="myScrollFunction('.nav-work')">WORK</span></li>
+          <li><span class="about" onclick="myScrollFunction('.nav-about')">ABOUT</a></span></li>
           <!-- <li><span class="contact">CONTACT</a></span></li> -->
       </ul>
     </div>
@@ -80,7 +80,7 @@
       </div>
     </div>
 
-    <span class="scrolltop">BACK TO TOP</span>
+    <span class="scrolltop" onclick="myScrollFunction('.header')">BACK TO TOP</span>
   </div>
   <div class="spacer">
     </div>
@@ -116,7 +116,7 @@
       <img class="profile" src="img/profile.png">
     </div>
   </div>
-    <span class="scrolltop">BACK TO TOP</span>
+    <span class="scrolltop" onclick="myScrollFunction('.header')">BACK TO TOP</span>
    </div>
   <div class="spacer">
     </div>

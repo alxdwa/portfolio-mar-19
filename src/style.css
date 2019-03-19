@@ -42,6 +42,9 @@ body {
 #navbar {
   width: 60px;
   z-index: 2;
+  position: fixed;
+  top: 5%;
+  right: 5%;
 }
 
 #navtext {
