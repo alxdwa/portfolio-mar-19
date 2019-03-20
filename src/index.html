@@ -14,18 +14,18 @@
 
   <nav>
     <div id="navbar">
-      <img src="img/navbar.svg" onclick="myNavFunction()" />
+      <img src="img/navbar.svg" onclick="myNavFunction('.nav-links')" />
     </div>
     <div id="navtext">
-      <div class="work-2"><a href="javascript:void(null)" class="work-2" onclick="myScrollFunction('.nav-work')">WORK</div>
-      <div class="about-2"><a href="javascript:void(null)" class="about-2" onclick="myScrollFunction('.nav-about')">ABOUT</div>
-      <div class="contact-2"><a href="javascript:void(null)" class="contact-2" onclick="myScrollFunction('.nav-contact')">CONTACT</div>   
+      <div class="work-2"><a href="javascript:void(null)" class="work-2" onclick="myScrollFunction('.nav-work')">Work</div>
+      <div class="about-2"><a href="javascript:void(null)" class="about-2" onclick="myScrollFunction('.nav-about')">About</div>
+      <div class="contact-2"><a href="javascript:void(null)" class="contact-2" onclick="myScrollFunction('.nav-contact')">Contact</div>   
     </div>
     <div class="nav-links">
       <ul>
-      <li><a href="javascript:void(null)" class="work" onclick="myScrollFunction('.nav-work')">WORK</a></li>
-      <li><a href="javascript:void(null)" class="about" onclick="myScrollFunction('.nav-about')">ABOUT</a></li>
-      <li><a href="javascript:void(null)" class="contact" onclick="myScrollFunction('.nav-contact')">CONTACT</a></li>
+      <li><a href="javascript:void(null)" class="work" onclick="myScrollFunction('.nav-work')">Work</a></li>
+      <li><a href="javascript:void(null)" class="about" onclick="myScrollFunction('.nav-about')">About</a></li>
+      <li><a href="javascript:void(null)" class="contact" onclick="myScrollFunction('.nav-contact')">Contact</a></li>
       </ul>
     </div>
   </nav>
@@ -61,17 +61,17 @@
   <div class="spacer">
     </div>
   <div class="nav-work">
-    <h2>PORTFOLIO</h2>
+    <h2>Portfolio</h2>
 
     <div class="nav-work-content">
       <div class="box1">
         <ul>
           <li>FunPassGen</li>
-          <li>CSS Zen Garden</li>
+          <li><a href="javascript:void(null)" onclick="imgToggle('zen-garden')">CSS Zen Garden</a></li>
+          <li><a href="javascript:void(null)" onclick="myNavFunction('.sketches')">p5.js sketches</a></li>
           <br>
-          <li>p5.js sketches</li>
-          <br>
-        <table class="p5js-sketches">
+          <div class="sketches">
+          <table class="p5js-sketches">
           <tr>
               <td>18.3.19</td>
               <td><a href="javascript:void(null)" onclick="imgToggle('paper-1')">paper-1</a></td>
@@ -97,18 +97,17 @@
               <td><a href="javascript:void(null)" onclick="imgToggle('sine-wave-1')">sine-wave-1</a></td>
             </tr>
           </table>
-
+         </div>
         </ul>
       </div>
       <div class="box2" id="box2">
+          <img id="zen-garden" src="img/zen-garden-composite.png" />
           <img id="paper-1" src="img/paper-1-img.png" />
           <img id="perlin-mountain-1" src="img/perlin-mountain-1-img.png" />
           <img id="circle-2" src="img/circle-2-img.png" />
           <img id="flower-1" src="img/flower-1-img.png" />
           <img id="circle-1" src="img/circle-1-img.png" />
           <img id="sine-wave-1" src="img/sine-wave-1-img.png" />
-
-
        </div>
       <div class="box3">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti vel, ea ad porro placeat libero, repellendus aperiam repudiandae eaque ipsa accusantium natus laborum? Tenetur ex optio illo amet asperiores quaerat.</p>
@@ -124,7 +123,7 @@
   <div class="spacer">
     </div>
   <div class="nav-about">
-  <h2>ALEX DIWA</h2>
+  <h2>Alex Diwa</h2>
 
   <div class="nav-about-content">
     <div class="box4">
@@ -160,7 +159,7 @@
   <div class="spacer">
   </div>
   <div class="nav-contact">
-    <h2>CONTACT</h2>
+    <h2>Contact</h2>
     <div class="nav-contact-content">
       <div class="box7">
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti vel, ea ad porro placeat libero, repellendus aperiam repudiandae eaque ipsa accusantium natus laborum? Tenetur ex optio illo amet asperiores quaerat.</p>
