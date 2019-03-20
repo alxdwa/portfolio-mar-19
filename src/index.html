@@ -17,16 +17,15 @@
       <img src="img/navbar.svg" onclick="myNavFunction()" />
     </div>
     <div id="navtext">
-      <div class="work-2"><span class="work-2" onclick="myScrollFunction('.nav-work')">WORK</span></div>
-      <div class="about-2"><span class="about-2" onclick="myScrollFunction('.nav-about')">ABOUT</span></div>
-      <div class="contact-2"><span class="contact-2" onclick="myScrollFunction('.nav-contact')">CONTACT</span></div>   
+      <div class="work-2"><a href="javascript:void(null)" class="work-2" onclick="myScrollFunction('.nav-work')">WORK</div>
+      <div class="about-2"><a href="javascript:void(null)" class="about-2" onclick="myScrollFunction('.nav-about')">ABOUT</div>
+      <div class="contact-2"><a href="javascript:void(null)" class="contact-2" onclick="myScrollFunction('.nav-contact')">CONTACT</div>   
     </div>
     <div class="nav-links">
       <ul>
-      <li><span class="work" onclick="myScrollFunction('.nav-work')">WORK</span></li>
-      <li><span class="about" onclick="myScrollFunction('.nav-about')">ABOUT</a></span></li>
-      <li><span class="contact" onclick="myScrollFunction('.nav-contact')">CONTACT</a></span></li>
-      <!-- <li><span class="contact">CONTACT</a></span></li> -->
+      <li><a href="javascript:void(null)" class="work" onclick="myScrollFunction('.nav-work')">WORK</a></li>
+      <li><a href="javascript:void(null)" class="about" onclick="myScrollFunction('.nav-about')">ABOUT</a></li>
+      <li><a href="javascript:void(null)" class="contact" onclick="myScrollFunction('.nav-contact')">CONTACT</a></li>
       </ul>
     </div>
   </nav>
@@ -71,17 +70,52 @@
           <li>CSS Zen Garden</li>
           <br>
           <li>p5.js sketches</li>
+          <br>
+        <table class="p5js-sketches">
+          <tr>
+              <td>18.3.19</td>
+              <td><a href="javascript:void(null)" onclick="imgToggle('paper-1')">paper-1</a></td>
+          </tr>
+          <tr>
+              <td>13.3.19</td>
+              <td><a href="javascript:void(null)" onclick="imgToggle('perlin-mountain-1')">perlin-mountain-1</a></td>
+          </tr>
+          <tr>
+            <td>10.3.19</td>
+            <td><a href="javascript:void(null)" onclick="imgToggle('circle-2')">circle-2</a></td>
+          </tr>
+          <tr>
+            <td>3.3.19</td>
+            <td><a href="javascript:void(null)" onclick="imgToggle('flower-1')">flower-1</a></td>
+          </tr>
+          <tr>
+            <td>2.3.19</td>
+            <td><a href="javascript:void(null)" onclick="imgToggle('circle-1')">circle-1</a></td>
+           </tr>
+            <tr>
+              <td>1.3.19</td>
+              <td><a href="javascript:void(null)" onclick="imgToggle('sine-wave-1')">sine-wave-1</a></td>
+            </tr>
+          </table>
+
         </ul>
       </div>
-      <div class="box2">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti vel, ea ad porro placeat libero, repellendus aperiam repudiandae eaque ipsa accusantium natus laborum? Tenetur ex optio illo amet asperiores quaerat.</p>
-      </div>
+      <div class="box2" id="box2">
+          <img id="paper-1" src="img/paper-1-img.png" />
+          <img id="perlin-mountain-1" src="img/perlin-mountain-1-img.png" />
+          <img id="circle-2" src="img/circle-2-img.png" />
+          <img id="flower-1" src="img/flower-1-img.png" />
+          <img id="circle-1" src="img/circle-1-img.png" />
+          <img id="sine-wave-1" src="img/sine-wave-1-img.png" />
+
+
+       </div>
       <div class="box3">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti vel, ea ad porro placeat libero, repellendus aperiam repudiandae eaque ipsa accusantium natus laborum? Tenetur ex optio illo amet asperiores quaerat.</p>
       </div>
     </div>
 
-    <span class="scrolltop" onclick="myScrollFunction('.landing')"><i class="fas fa-arrow-up"></i></span>
+    <a href="javascript:void(null)" class="scrolltop" onclick="myScrollFunction('.landing')"><i class="fas fa-arrow-up"></i></a>
   </div>
   <div class="spacer">
     </div>
@@ -117,7 +151,7 @@
       <img class="profile" src="img/profile.png">
     </div>
   </div>
-    <span class="scrolltop" onclick="myScrollFunction('.landing')"><i class="fas fa-arrow-up"></i></span>
+    <a href="javascript:void(null)" class="scrolltop" onclick="myScrollFunction('.landing')"><i class="fas fa-arrow-up"></i></a>
    </div>
  
 </div>
@@ -160,7 +194,7 @@
           </table>
       </div>
     </div>
-    <span class="scrolltop" onclick="myScrollFunction('.landing')"><i class="fas fa-arrow-up"></i></span>
+    <a href="javascript:void(null)" class="scrolltop" onclick="myScrollFunction('.landing')"><i class="fas fa-arrow-up"></i></a>
   </div>
   <div class="spacer">
   </div>
