@@ -5,9 +5,7 @@
 }
 
 body {
-  background: url('img/greybg.svg') no-repeat #FFFFFF;
-  background-size: 100%;
-  background-position: top 700px right 30px;
+  background:#FFFFFF;
   margin: 0;
   padding: 0;
   font-family: 'Fira Mono', monospace;
@@ -15,6 +13,12 @@ body {
   letter-spacing: 0px;
   color: #000000;
   font-size: 15pt;
+}
+
+.nav-work-bg {
+  background: url('img/greybg.svg') no-repeat #FFFFFF;
+  background-size: 100%;
+  background-position: top 250px right 50px;
 }
 
 button, button:focus {
@@ -324,9 +328,9 @@ a:active {
 
 @media screen and (min-width: 769px) {
 
-  body {
+  .nav-work-bg {
     background-size: 70%;
-    background-position: top 600px right 20%;
+    background-position: top 0px right 100px;
   }
 
   .heading {
