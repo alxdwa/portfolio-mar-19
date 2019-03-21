@@ -1,18 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Fira+Mono:400,500,700');
 @font-face {
-  font-family: Konstant Grotesk;
-  src: url('img/KonstantGrotesk.otf')
+  font-family: 'Anderson Black';
+  src: url('img/AndersonGrotesk-Black.otf')
 }
 
-
-/* ::-webkit-scrollbar { 
-  display: none; 
-} */
-
 body {
-  background: url('img/bg_edit4.svg') no-repeat #FFFFFF;
-  /* greybg  bg_edit4.. purple: EBDCFF; blue: EBEAF0, pink/red:FEE7EE FFF1EC  */
-  background-size: 150%;
+  background: url('img/greybg.svg') no-repeat #FFFFFF;
+  background-size: 100%;
+  background-position: top 700px right 30px;
   margin: 0;
   padding: 0;
   font-family: 'Fira Mono', monospace;
@@ -22,22 +17,30 @@ body {
   font-size: 15pt;
 }
 
+button, button:focus {
+  background: url('img/folder.png') no-repeat transparent;
+  background-size: 80%;
+  background-position: 50% 50%;
+  color: transparent;
+  font-size: 0px;
+  border: 0px solid black;
+  width: 50px;
+  height: 60px;
+}
 
-.landing {
+.landing-page {
   margin: 0;
   border: 0px solid black;
   width: 100%;
-  padding: 30px;
+  padding: 10px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-start;
   box-sizing: border-box;
   position: relative;
-}
-
-.hand {
-  height: 1em;
+  background-color: #F12C05;
+  height: 100vh;
 }
 
 .logo {
@@ -53,24 +56,11 @@ body {
   right: 5%;
 }
 
-#navtext {
-  display: none;
-  z-index: 2;
-  position:fixed;
-  top: 10%;
-  right: 5%;
-  letter-spacing: 0px;
-  color: #0000FF;
-  text-decoration: none;
-  font-size: 0.8em;
-}
-
 .nav-links {
-  background: url('img/navbg.svg') no-repeat center #FFFFFF;
+  background: url('img/navbg.svg') no-repeat center transparent;
   background-size:90%;
-  margin: 0;
-  border: 0px solid black;
   display:none;
+  margin: 0;
   z-index: 1;
   position: fixed;
   top: 0px;
@@ -81,6 +71,7 @@ body {
   font-size: 1.5em;
   letter-spacing: 0px;
   font-weight: 500;
+  line-height: 1.5em;
 }
 
 ul, li {
@@ -89,30 +80,31 @@ ul, li {
   padding: 0;
 }
 
-.nav-links ul, .nav-links li {
-  line-height: 2em;
-}
-
 .welcome-message {
   margin: 0;
-  padding: 0;
-  /* padding-top: 0; */
+  padding: 10px;
   border: 0px solid black;
-  font-size: 18pt;
-  line-height: 1.5em;
+  font-size: 25pt;
+  font-family: 'Anderson Black', 'Fira Mono', monospace;
+  transform-origin: top left;
+  color: transparent;
+  letter-spacing: 0px;
+  -webkit-transform:scale(1.5,1);
+  -webkit-text-stroke: 1px #000000;
+  width: 60%;
+  line-height: 1em;
 }
 
-.welcome-message p {
+h1 {
+  color: #000000;
+  -webkit-text-stroke: 0px #000000;
+  text-transform: uppercase;
+  font-size: inherit;
+  margin: 0;
   margin-bottom: 20px;
 }
 
-.sticky {
-  position: fixed;
-  top: 5%;
-  right: 5%;
-}
-
-.links {
+.contact-links {
   margin: 0;
   padding: 30px;
   border: 0px solid black;
@@ -126,41 +118,23 @@ ul, li {
   position: absolute;
   bottom: 5px;
   box-sizing: border-box;
-  color: #0000FF;
+  color: #000000;
+  background: #F12C05;
 }
-
 
 p {
   margin: 0;
-
 }
 
 .spacer {
   height: 10vh;
   border: 0px solid black;
 }
-/* .nav-work-bg {
 
-  background: url('img/workbg2.svg') no-repeat left transparent;
-  background-size: 180% ;
-  background-position-x: 0px;
-  background-position-y: 100px;
-} */
 .nav-about-bg {
-
-  background: url('img/workbg2.svg') no-repeat bottom transparent;
-  background-size: 70% ;
-  background-position-x: 70%;
-  background-position-y: 20%;
-
-}
-
-.nav-contact-bg {
-
-  background: url('img/linebg3.svg') no-repeat bottom transparent;
-  background-size: 70% ;
-  background-position-x: 70%;
-  background-position-y: 100px;
+  background: url('img/aboutbg.svg') no-repeat transparent;
+  background-size: 150% ;
+  background-position: left 20px top 100px;
 }
 
 .nav-contact-bg div:nth-of-type(3) {
@@ -182,46 +156,41 @@ p {
   right: 5.5%;
   display: inline;
   font-size: 2em;
+  z-index: 3;
 }
-/* 
-.nav-about {
-  background: url('img/linebg2.svg') no-repeat bottom right transparent;
-  background-position-x: 100%;
-  background-position-y: 150px;
-  background-size: 50% ;
-} */
 
 .nav-work-content, .nav-about-content, .nav-contact-content {
   display: flex;
   flex-direction: column;
 }
 
-
 .visible {
   display: flex;
 }
 
 h2 {
+  font-family: 'Anderson Black';
   padding-bottom: 30px;
-  font-size: 2.5em;
-  letter-spacing: 0px;
-  font-weight: 500;
-  text-transform: lowercase;
+  transform-origin: top left;
+  color: #000000;
+  -webkit-transform:scale(1.4,1);
+  letter-spacing: 1px;
+  font-size: 2.0em;
+  width: 50%;
+  text-transform: uppercase;
 }
 
 a {
-  color: #0000FF;
+  color: #000000;
+  background: transparent;
   letter-spacing: 0px;
   text-decoration: underline;
-  text-transform: lowercase;
 }
 
 a:active {
   color: #000000;
+  background-color: #F12C05;
 }
-
-
-
 
 .box4 {
   order: 2;
@@ -247,7 +216,7 @@ a:active {
 }
 
 .box8 td {
-  color: #0000FF;
+  color: #000000;
   font-size: 1em;
   padding-top: 0;
   padding-right: 20px;
@@ -275,127 +244,72 @@ a:active {
   display: none;
 }
 
-/* .box2 {
-  position: relative;
-} */
-
-
 .box2 img, .box2 div {
   width: 100%;
   display: none;
 }
 
-/* 
-.sine-wave-1 {
-  display: none;
-}
-
-.circle-1 {
-  display: none;
-} */
 
 .visible {
   display: flex;
 }
 
-/* .visible-img {
-  display: block;
-  z-index: 2;
-  position: absolute;
-  top: 0;
-  left: 0;
-} */
-
-
 
 @media screen and (min-width: 550px) {
-  body {
-    background-size: 80%;
-    background-position-y: 200px;
-    background-position-x: 100px;
-  }
-  /* .landing {
-    display: flex;
-    flex-direction: row;
-  } */
-  .logo {
-    width: 15%;
-    margin-left: 2%;
-    margin-top: 3%;
-  }
-  .welcome-message {
-    width: 50%;
-    margin-left: 20%;
-    font-size: 3.5vh;
 
+  .nav-links {
+    background: none;
+    width: auto;
+    height: auto;
+    display: inline-block;
+    z-index: 2;
+    position:fixed;
+    top: 10%;
+    right: 0px;
+    letter-spacing: 0px;
+    color: #000000;
+    text-decoration: none;
+    font-size: 0.8em;
+    text-align: right;
   }
-  .links {
+
+  .nav-links ul {
+    margin-right: 40px;
+  }
+  
+  .welcome-message {
+    width: 60%;
+    margin-left: 0%;
+    margin-top: 0%;
+    font-size: 6.5vh;
+  }
+  .contact-links {
     font-size: 1em;
     justify-content: flex-start;
     position: absolute;
     bottom: 10px;
-
   }
-  .links i {
+  .contact-links i {
     padding: 30px;
-    color: #0000FF;
-  }
-
-
-
-  .header {
-    justify-content: space-between;
-    align-items: flex-start;
-    padding: 40px;
-    padding-bottom: 0px;
+    color: #000000;
   }
 
   #navbar {
     display: none;
   }
-  #navtext {
-    display: flex;
-    flex-direction:column;
-    align-items: flex-end;
-    justify-items: space-between;
-    height: 80px;
-  }
-
-  #navtext div {
-    flex: 1 1 auto;
-  }
-
 
   .nav-work, .nav-about {
     font-size: 10pt;
   }
 
   h2 {
-    font-size: 1.5em;
+    font-size: 3em;
   }
 
-  /* .nav-work-bg {
-
-    background: url('img/workbg2.svg') no-repeat left transparent;
-    background-size: 100% ;
-    background-position-x: 0px;
-    background-position-y: 0px;
-  } */
   .nav-about-bg {
     background-size: 100% ;
     background-position-x: 0px;
     background-position-y: 0px;
-  }
-
-  .nav-contact-bg {
-    background-size: 40% ;
-    background-position: bottom center;
-    /* background-position-x: 70%;
-    background-position-y: 20%; */
-  }
-
-  .nav-links {
-    display: none;
   }
 
   ul, li {
@@ -404,12 +318,29 @@ a:active {
   }
 
   .spacer {
-    /* height: 100vh; */
     height: 30vh;
   }
 }
 
 @media screen and (min-width: 769px) {
+
+  body {
+    background-size: 70%;
+    background-position: top 600px right 20%;
+  }
+
+  .heading {
+    width: 40%;
+  }
+
+  .landing-page {
+    padding: 30px;
+  }
+
+  .welcome-message {
+    margin-top: 10%;
+    font-size: 8.5vh;
+  }
 
   .nav-work-content, .nav-about-content, .nav-contact-content {
     display: flex;
@@ -423,7 +354,6 @@ a:active {
   .nav-contact-content {
     justify-content: flex-start;
   }
-
 
   .box1 {
     padding-right: 20px;
@@ -439,7 +369,6 @@ a:active {
   
   .box3 {
     display: none;
-    
   }
 
   .box4 {
@@ -472,20 +401,20 @@ a:active {
     max-width: 30%;
   }
 
-  #navtext {
-    display: flex;
-    flex-direction:row;
-    align-items: flex-start;
-    justify-content: space-between;
-    width: 380px;
+  .nav-links li {
+    display: inline;
+    margin-right: 30px;
   }
 
 }
-@media screen and (max-height: 650px) {
-  .links {
+@media screen and (max-height: 450px) {
+  .contact-links {
     position: relative;
   }
 
+  .landing-page {
+    height: auto;
+  }
 }
 
 @media screen and (min-height: 650px) {

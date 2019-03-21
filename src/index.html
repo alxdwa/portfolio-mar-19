@@ -1,206 +1,187 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>alex diwa</title>
+  <title>Alex Diwa</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" media="screen" href="normalize.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+  <link rel="icon" href="img/browser_logo.png" />
   <script src="js/main.js"></script>
  </head>
 <body>
 
-  <nav>
-    <div id="navbar">
-      <img src="img/navbar.svg" onclick="myNavFunction('.nav-links')" />
-    </div>
-    <div id="navtext">
-      <div class="work-2"><a href="javascript:void(null)" class="work-2" onclick="myScrollFunction('.nav-work')">Work</div>
-      <div class="about-2"><a href="javascript:void(null)" class="about-2" onclick="myScrollFunction('.nav-about')">About</div>
-      <div class="contact-2"><a href="javascript:void(null)" class="contact-2" onclick="myScrollFunction('.nav-contact')">Contact</div>   
-    </div>
+  <nav role="navigation">
+    <button id="navbar" onclick="myNavFunction('.nav-links')">Navigation</button>
     <div class="nav-links">
       <ul>
-      <li><a href="javascript:void(null)" class="work" onclick="myScrollFunction('.nav-work')">Work</a></li>
-      <li><a href="javascript:void(null)" class="about" onclick="myScrollFunction('.nav-about')">About</a></li>
-      <li><a href="javascript:void(null)" class="contact" onclick="myScrollFunction('.nav-contact')">Contact</a></li>
+        <li><a href="javascript:void(null)" class="work" onclick="myScrollFunction('.nav-work')">Work</a></li>
+        <li><a href="javascript:void(null)" class="about" onclick="myScrollFunction('.nav-about')">About</a></li>
+        <li><a href="javascript:void(null)" class="contact" onclick="myScrollFunction('.nav-contact')">Contact</a></li>
       </ul>
     </div>
   </nav>
 
-  <div class="landing">
-    <div class="logo">
-      <img src="img/logo_AD.svg" /> 
-      <!-- col5... logo_line2-->
-    </div>
-    <div class="welcome-message">
-      <p>Hi! <img class="hand" src="img/wave.svg"></p>
-      <p>
-        I'm Alex Diwa.
-        </p>
-        <p>
-        I'm a full-stack web developer based in Sydney, Australia.
-      </p>
-    </div>
+  <div class="landing-page">
+    <header class="welcome-message" role="banner">
+      <h1>Hi, I'm Alex.</h1>
+      <p>I'm a full-stack web developer based in Sydney, Australia.</p>
+    </header>
   </div>
 
-
-
-  <div class="links">
-    <i class="fab fa-github"></i>
-    <i class="fab fa-twitter"></i>
-    <i class="fab fa-medium-m"></i>
-    <i class="fab fa-linkedin-in"></i>
-    <i class="far fa-envelope"></i>
+  <div class="contact-links">
+    <a href=""><i class="fab fa-github"></i></a>
+    <a href=""><i class="fab fa-twitter"></i></a>
+    <a href=""><i class="fab fa-medium-m"></i></a>
+    <a href=""><i class="fab fa-linkedin-in"></i></a>
+    <a href=""><i class="far fa-envelope"></i></a>
   </div>
-  <div class="spacer">
-    </div>
-<div class="nav-work-bg">
-  <div class="spacer">
-    </div>
-  <div class="nav-work">
-    <h2>Portfolio</h2>
 
-    <div class="nav-work-content">
-      <div class="box1">
-        <ul>
-          <li><a href="javascript:void(null)" onclick="imgToggle('funpassgen')">FunPassGen</a></li>
-          <li><a href="javascript:void(null)" onclick="imgToggle('zen-garden')">CSS Zen Garden</a></li>
-          <li><a href="javascript:void(null)" onclick="myNavFunction('.sketches')">p5.js sketches</a></li>
-          <br>
-          <div class="sketches">
-          <table class="p5js-sketches">
-          <tr>
-              <td>18.3.19</td>
-              <td><a href="javascript:void(null)" onclick="imgToggle('paper-1')">paper-1</a></td>
-          </tr>
-          <tr>
-              <td>13.3.19</td>
-              <td><a href="javascript:void(null)" onclick="imgToggle('perlin-mountain-1')">perlin-mountain-1</a></td>
-          </tr>
-          <tr>
-            <td>10.3.19</td>
-            <td><a href="javascript:void(null)" onclick="imgToggle('circle-2')">circle-2</a></td>
-          </tr>
-          <tr>
-            <td>3.3.19</td>
-            <td><a href="javascript:void(null)" onclick="imgToggle('flower-1')">flower-1</a></td>
-          </tr>
-          <tr>
-            <td>2.3.19</td>
-            <td><a href="javascript:void(null)" onclick="imgToggle('circle-1')">circle-1</a></td>
-           </tr>
-            <tr>
-              <td>1.3.19</td>
-              <td><a href="javascript:void(null)" onclick="imgToggle('sine-wave-1')">sine-wave-1</a></td>
-            </tr>
-          </table>
-         </div>
-        </ul>
+  <div class="spacer"></div>
+
+  <main role="main">
+    <div class="nav-work-bg">
+      <div class="spacer"></div>
+      <div class="nav-work">
+        <h2>Portfolio</h2>
+        <div class="nav-work-content">
+
+          <div class="box1">
+            <ul>
+              <li><a href="javascript:void(null)" onclick="imgToggle('funpassgen')">FunPassGen</a></li>
+              <li><a href="javascript:void(null)" onclick="imgToggle('zen-garden')">CSS Zen Garden</a></li>
+              <li><a href="javascript:void(null)" onclick="myNavFunction('.sketches')">p5.js sketches</a></li>
+              <br>
+              <div class="sketches">
+                <table class="p5js-sketches">
+                  <tr>
+                    <td>18.3.19</td>
+                    <td><a href="javascript:void(null)" onclick="imgToggle('paper-1')">paper-1</a></td>
+                  </tr>
+                  <tr>
+                    <td>13.3.19</td>
+                    <td><a href="javascript:void(null)" onclick="imgToggle('perlin-mountain-1')">perlin-mountain-1</a></td>
+                  </tr>
+                  <tr>
+                    <td>10.3.19</td>
+                    <td><a href="javascript:void(null)" onclick="imgToggle('circle-2')">circle-2</a></td>
+                  </tr>
+                  <tr>
+                    <td>3.3.19</td>
+                    <td><a href="javascript:void(null)" onclick="imgToggle('flower-1')">flower-1</a></td>
+                  </tr>
+                  <tr>
+                    <td>2.3.19</td>
+                    <td><a href="javascript:void(null)" onclick="imgToggle('circle-1')">circle-1</a></td>
+                  </tr>
+                  <tr>
+                    <td>1.3.19</td>
+                    <td><a href="javascript:void(null)" onclick="imgToggle('sine-wave-1')">sine-wave-1</a></td>
+                  </tr>
+                </table>
+              </div>
+            </ul>
+          </div>
+
+          <div class="box2" id="box2">
+            <img id="funpassgen" src="img/funpassgen-composite.png" />
+            <img id="zen-garden" src="img/zen-garden-composite.png" />
+            <img id="paper-1" src="img/paper-1-img.png" />
+            <img id="perlin-mountain-1" src="img/perlin-mountain-1-img.png" />
+            <img id="circle-2" src="img/circle-2-img.png" />
+            <img id="flower-1" src="img/flower-1-img.png" />
+            <img id="circle-1" src="img/circle-1-img.png" />
+            <img id="sine-wave-1" src="img/sine-wave-1-img.png" />
+          </div>
+
+          <div class="box3">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti vel, ea ad porro placeat libero, repellendus aperiam repudiandae eaque ipsa accusantium natus laborum? Tenetur ex optio illo amet asperiores quaerat.</p>
+          </div>
+        </div>
+
+       <a href="javascript:void(null)" class="scrolltop" onclick="myScrollFunction('.landing-page')"><i class="fas fa-arrow-up"></i></a>
       </div>
-      <div class="box2" id="box2">
-          <img id="funpassgen" src="img/funpassgen-composite.png" />
-          <img id="zen-garden" src="img/zen-garden-composite.png" />
-          <img id="paper-1" src="img/paper-1-img.png" />
-          <img id="perlin-mountain-1" src="img/perlin-mountain-1-img.png" />
-          <img id="circle-2" src="img/circle-2-img.png" />
-          <img id="flower-1" src="img/flower-1-img.png" />
-          <img id="circle-1" src="img/circle-1-img.png" />
-          <img id="sine-wave-1" src="img/sine-wave-1-img.png" />
-       </div>
-      <div class="box3">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti vel, ea ad porro placeat libero, repellendus aperiam repudiandae eaque ipsa accusantium natus laborum? Tenetur ex optio illo amet asperiores quaerat.</p>
+      <div class="spacer"></div>
+    </div>
+    <div class="nav-about-bg">
+      <div class="spacer"></div>
+      <div class="nav-about">
+        <h2>Alex Diwa</h2>
+
+        <div class="nav-about-content">
+          <div class="box4">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem corrupti quibusdam aliquid vitae neque eligendi pariatur? In animi ratione culpa accusamus, numquam eaque, corrupti excepturi ad molestiae ipsum iusto. Ipsa!</p>
+          </div>
+          <div class="box5">
+              <p>TECH STACK:</p>
+              <br>
+              <p>
+                <ul>
+                  <li>HTML5</li>
+                  <li>CSS3</li>
+                  <li>Ruby on Rails</li>
+                  <li>JavaScript</li>
+                  <li>MongoDB</li>
+                  <li>Express</li>
+                  <li>React</li>
+                  <li>Node.js</li>
+                  <li>p5.js</li>
+                </ul>
+              </p>
+          </div>
+          <div class="box6">
+            <img class="profile" src="img/profile.png">
+          </div>
+        </div>
+        <a href="javascript:void(null)" class="scrolltop" onclick="myScrollFunction('.landing-page')"><i class="fas fa-arrow-up"></i></a>
       </div>
     </div>
 
-    <a href="javascript:void(null)" class="scrolltop" onclick="myScrollFunction('.landing')"><i class="fas fa-arrow-up"></i></a>
-  </div>
-  <div class="spacer">
-    </div>
-  </div>
-<div class="nav-about-bg">
-  <div class="spacer">
-    </div>
-  <div class="nav-about">
-  <h2>Alex Diwa</h2>
-
-  <div class="nav-about-content">
-    <div class="box4">
-      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem corrupti quibusdam aliquid vitae neque eligendi pariatur? In animi ratione culpa accusamus, numquam eaque, corrupti excepturi ad molestiae ipsum iusto. Ipsa!</p>
-    </div>
-    <div class="box5">
-        <p>TECH STACK:</p>
-        <br>
-        <p>
-          <ul>
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>Ruby on Rails</li>
-            <li>JavaScript</li>
-            <li>MongoDB</li>
-            <li>Express</li>
-            <li>React</li>
-            <li>Node.js</li>
-            <li>p5.js</li>
-          </ul>
-        </p>
-    </div>
-    <div class="box6">
-      <img class="profile" src="img/profile.png">
-    </div>
-  </div>
-    <a href="javascript:void(null)" class="scrolltop" onclick="myScrollFunction('.landing')"><i class="fas fa-arrow-up"></i></a>
-   </div>
- 
-</div>
-
-<div class="nav-contact-bg">
-  <div class="spacer">
-  </div>
-  <div class="nav-contact">
-    <h2>Contact</h2>
-    <div class="nav-contact-content">
-      <div class="box7">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti vel, ea ad porro placeat libero, repellendus aperiam repudiandae eaque ipsa accusantium natus laborum? Tenetur ex optio illo amet asperiores quaerat.</p>
-      </div>
-      <div class="box8">
-          <table>
-            <tr>
-              <td>
-                <i class="fab fa-github"></i>
-                <br>github
-              </td>
-              <td>
-                <i class="fab fa-twitter"></i>
-                <br>twitter
-              </td>
+    <div class="nav-contact-bg">
+      <div class="spacer"></div>
+      <div class="nav-contact">
+        <h2>Contact</h2>
+        <div class="nav-contact-content">
+          <div class="box7">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti vel, ea ad porro placeat libero, repellendus aperiam repudiandae eaque ipsa accusantium natus laborum? Tenetur ex optio illo amet asperiores quaerat.</p>
+          </div>
+          <div class="box8">
+            <table>
+              <tr>
+                <td>
+                  <i class="fab fa-github"></i>
+                  <br>github
+                </td>
+                <td>
+                  <i class="fab fa-twitter"></i>
+                  <br>twitter
+                </td>
                 <td>
                   <i class="fab fa-medium-m"></i>
                   <br>medium
                 </td>
-            </tr>
-            <tr>
-              <td>
-                <i class="fab fa-linkedin-in"></i>
-                <br>linkedin
-              </td>
-              <td>
-              <i class="far fa-envelope"></i>
-              <br>email
-              </td>
-            </tr>
-          </table>
+              </tr>
+              <tr>
+                <td>
+                  <i class="fab fa-linkedin-in"></i>
+                  <br>linkedin
+                </td>
+                <td>
+                  <i class="far fa-envelope"></i>
+                  <br>email
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        <a href="javascript:void(null)" class="scrolltop" onclick="myScrollFunction('.landing-page')"><i class="fas fa-arrow-up"></i></a>
       </div>
+      <div class="spacer"></div>
+      
     </div>
-    <a href="javascript:void(null)" class="scrolltop" onclick="myScrollFunction('.landing')"><i class="fas fa-arrow-up"></i></a>
-  </div>
-  <div class="spacer">
-  </div>
-  
-</div>
-
-
+  </main>
 </body>
+
 </html>

@@ -5,16 +5,10 @@ function myScrollFunction(item) {
   nav.classList = "nav-links";
 }
 
-// function myNavFunction() {
-//   var element = document.querySelector('.nav-links');
-//   element.classList.toggle("visible");
-// }
-
 function myNavFunction(className) {
   var element = document.querySelector(className);
   element.classList.toggle("visible");
 }
-
 
 var imgState = {};
 function imgToggle(id) {
