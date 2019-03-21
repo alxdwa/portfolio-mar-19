@@ -290,7 +290,22 @@ a:active {
 #box2.perlin-mountain-1 .perlin-mountain-1,
 #box2.flower-1 .flower-1,
 #box2.circle-1 .circle-1,
-#box2.sine-wave-1 .sine-wave-1 {display: block;}
+#box2.sine-wave-1 .sine-wave-1,
+#box2.leslie .leslie {display: block;}
+
+#watermelon {
+  padding-top: 20px;
+}
+
+#watermelon a {
+  text-decoration: none;
+}
+
+iframe {
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+}
 
 .list {
   display: none;
