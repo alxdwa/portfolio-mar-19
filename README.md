@@ -21,7 +21,7 @@ INSERT SCREENSHOTS OF WEBPAGE
 
 ### Tech Stack ### 
 
-This portfolio was built using HTML5, CSS3 and JavaScript. 
+This portfolio was built using HTML5, CSS3 and JavaScript. In early versions, I employed jQuery to make for easy scripting of toggling and smooth scrolling, but later switched to using plain JavaScript to perform these functions. 
 
 ## Design & Planning ##
 
@@ -37,7 +37,6 @@ The portfolio needs to be deployed within the timeframe of one week.
 ### Moodboard ###
 
 ![moodboard](https://github.com/alxdwa/portfolio-mar-19/blob/master/docs/2_pinterest_moodboard.png)
-
 
 ### Wireframes ### 
 
