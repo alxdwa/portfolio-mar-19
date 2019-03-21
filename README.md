@@ -73,23 +73,25 @@ Early on in the process, I also sketched out some logos and experimented with co
 
 Combining these design elements together, I created a few layouts, examples of which are shown below in a composite image. I chose to use a monospace font as a counterpoint to the more rounded, organic design elements of the page. The colour choices were based on inspiration from the moodboard - cool tones with accents (e.g. links) in bold colours. 
 
+![early versions screenshots](https://github.com/alxdwa/portfolio-mar-19/blob/master/docs/8_early_version_screenshots.png)
+
 Typography tests:
 
-(image)
+![typography tests part 1](https://github.com/alxdwa/portfolio-mar-19/blob/master/docs/9_typography_tests1.png)
 
 #### Redesign ####
 
 I chose to redesign the page on the third full day of working on this assignment. This was in response to a few things. Firstly, the cool tones I used in excess were not bold or inspiring, nor did they fit the overall feeling I wanted to feel and convey to others. I felt as that the original designs and layout lacked a point of view. I wanted the page to be a refreshing, cold shower, not a lukewarm bath. While I wanted to keep certain design elements and the code structure/layout, I went through another cycle of moodboarding for more inspiration. It became clear that I was seeking a more minimalist design with smarter colour choices. 
 
-(new moodboard screenshot)
+![second moodboard](https://github.com/alxdwa/portfolio-mar-19/blob/master/docs/12_pinterest_moodboard_2.png)
 
-I experimented with colour and font. I wanted a bolder font that had more character, and a colour scheme that felt (re)fresh(ing).
+I experimented with colour and font. I wanted a bolder font that had more character, and a colour scheme that felt (re)fresh(ing). I decided on using the red/orange colour that had been used in the early version as an accent colour, now as the primary colour to contrast to the black and white.
 
-(typography tests 2) (design elements).
+![typography tests part 2](https://github.com/alxdwa/portfolio-mar-19/blob/master/docs/10_typography_tests2.png)
 
-After combining these elements together, I created a new version of this portfolio. Some screenshots taken early after redesigning are shown below.
+Combining these elements together, along with design elements from the earlier version, I began reworking the page. Some screenshots taken early after reworking are shown below. I reduced the number of elements and images on the page and in each section to increase whitespace (and decrease clutter), even deciding to forego a logo image. Together, I felt that these elements - or lack thereof - heightened the impact of the page and produced the desired feel and mood. 
 
-(redesign screenshots).
+![early redesign](https://github.com/alxdwa/portfolio-mar-19/blob/master/docs/11_redesign.png)
 
 
 ### Usability Considerations & Accessibility ### 
