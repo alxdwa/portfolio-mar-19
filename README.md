@@ -1,4 +1,4 @@
-# Portfolio #
+![Portfolio March 2019](https://github.com/alxdwa/portfolio-mar-19/blob/master/docs/0_header.png)
 
 PORTFOLIO LINK:
 REPO LINK:
@@ -32,7 +32,8 @@ The portfolio needs to be deployed within the timeframe of one week.
 ### Trello Brainstorming ###
 
 ![trello_1_brainstorm](https://github.com/alxdwa/portfolio-mar-19/blob/master/docs/1_trello_brainstorm.png)
-![trello 2_workflow](https://github.com/alxdwa/portfolio-mar-19/blob/master/docs/5_trello_workflow.png)
+![trello 2_workflow sprint 1](https://github.com/alxdwa/portfolio-mar-19/blob/master/docs/5_trello_workflow.png)
+![trello sprint 2](https://github.com/alxdwa/portfolio-mar-19/blob/master/docs/5a_trello_sprint2.png)
 
 ### Moodboard ###
 
