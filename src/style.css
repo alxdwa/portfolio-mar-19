@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Fira+Mono:400,500,700');
 @font-face {
   font-family: 'Anderson Black';
-  src: url('img/AndersonGrotesk-Black.otf')
+  src: url('img/AndersonGrotesk.otf') format('opentype');
 }
 
 body {
@@ -168,7 +168,7 @@ p {
   right: 5.5%;
   display: inline;
   font-size: 2em;
-  z-index: 3;
+  z-index: 1;
 }
 
 .nav-work-content, .nav-about-content, .nav-contact-content {
