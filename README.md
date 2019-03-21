@@ -5,15 +5,15 @@ REPO LINK:
 
 ## Description ##
 
-This README documents the development of my personal and professional portfolio, including details on its design, planning and execution. 
+This README documents the development of my personal and professional portfolio, including details on its design, planning and execution.
 
 ### Purpose & Target Audience ### 
 
-The use of this portfolio is to showcase my skills, attributes and personality in an effective and compelling way, primarily to attract people who might want to work with me (prospective internship providers, prospective employers and people who want to collaborate on projects). The portfolio should appeal - and be accessible - to a wide audience spanning all demographics. As I am more interested in XXXX, I want it to have a youthful and creative feel, that is still clean, very user-friendly and professional. 
+Through this portfolio, I want to showcase my skills, attributes and personality in an effective, compelling and genuine way. This portfolio should and will be an important tool in networking, developing my personal brand and increasing my online presence. Its purpose is also to attract prospective internship providers, prospective employers and prospective collaborators. As such, it should be targeted to a wide audience spanning all demographics, and appeal to (and be accessible by) anyone irrespective of age, gender, ability, sexual orientation, race or religion. 
 
 ### Functionality & Features ### 
 
-This portfolio is structured as a single-page website with 4 sections: a landing page, portfolio, about/bio and contact details. A navigation bar allows the user to move smoothly between sections on the website. 
+This portfolio is structured as a single-page website with 4 sections: a landing page, a page showcasing my work (portfolio), a page with details about myself (about/bio) and ways for people to get in touch with me (contact details). A navigation bar allows the user to move smoothly between sections on the website, but the user can also scroll between sections if preferred. 
 
 ### Screenshots ### 
 
@@ -21,7 +21,7 @@ INSERT SCREENSHOTS OF WEBPAGE
 
 ### Tech Stack ### 
 
-This portfolio was built using HTML5, CSS3 and jQuery. 
+This portfolio was built using HTML5, CSS3 and JavaScript. 
 
 ## Design & Planning ##
 
@@ -55,27 +55,42 @@ Wireframe for desktop. Dimensions of 1024 x 768 used as a guide.
 
 ### Design Process ### 
 
-#### Logo Design ####
+#### Code Structure ####
 
-A few different logo options were considered after sketching out some designs (see composite image below). I aimed to design something that was youthful and playful, and that represented myself as much as possible. Considering this, I went for a hand-drawn feel using free-form, organic shapes and lines. I experimented with colour, but ultimately decided on a cool-tone gradient to fit the overall mood and theme of the page. The logo created is adaptable for future projects and for use in different contexts.
+I wanted to create a simple page that was easy and intuitive to navigate. As such, I decided on a single-page website that could be navigated by scrolling or by clicking on links. FLEXBOX ETC.
 
-![logo_options](https://github.com/alxdwa/portfolio-mar-19/blob/master/docs/4_logo_design2.png)
+The main challenge was making sure that the page was responsive. 
 
-#### Page Design Elements ####
+#### Preliminary Designs ####
 
-While brainstorming, I listed words that I wanted to describe the look and feel of the website. These include: fresh, young, modern, abstract, open, futuristic, space, and 90s and early 2000s nostalgia. I began sketching based on these desriptive words and from the moodboard that I compiled in Pinterest. Below is a sample of these sketches. I wanted to make sure that the page kept a light and open feel, so I employed these motifs sparingly throughout the page. 
+While brainstorming, I listed words that I wanted to describe the look and feel of the website. These include: fresh, young, modern, abstract, open, futuristic, space, and 90s and early 2000s nostalgia. I began sketching based on these desriptive words and from the moodboard. Below is a sample of these sketches.
 
 ![design_elements](https://github.com/alxdwa/portfolio-mar-19/blob/master/docs/3_design_elements2.png)
 
-##### Colour and Font #####
+Early on in the process, I also sketched out some logos and experimented with colour. Examples of these are below.
 
-As for font choice, I wanted to use a monospace font as a counterpoint to the more rounded, organic design elements of the page (i.e. the logo and backgrounds). I wanted a colour scheme that was youthful and modern, but that also allowed for clean and professional presentation. 
+![logo_options](https://github.com/alxdwa/portfolio-mar-19/blob/master/docs/4_logo_design2.png)
 
-#### Code Structure ####
+Combining these design elements together, I created a few layouts, examples of which are shown below in a composite image. I chose to use a monospace font as a counterpoint to the more rounded, organic design elements of the page. The colour choices were based on inspiration from the moodboard - cool tones with accents (e.g. links) in bold colours. 
 
-I wanted to create a simple page that was easy and intuitive to navigate. As such, I decided on a single-page website that could be navigated by scrolling or by clicking on links. 
+Typography tests:
 
-The main challenge was making sure that the page was responsive. 
+(image)
+
+#### Redesign ####
+
+I chose to redesign the page on the third full day of working on this assignment. This was in response to a few things. Firstly, the cool tones I used in excess were not bold or inspiring, nor did they fit the overall feeling I wanted to feel and convey to others. I felt as that the original designs and layout lacked a point of view. I wanted the page to be a refreshing, cold shower, not a lukewarm bath. While I wanted to keep certain design elements and the code structure/layout, I went through another cycle of moodboarding for more inspiration. It became clear that I was seeking a more minimalist design with smarter colour choices. 
+
+(new moodboard screenshot)
+
+I experimented with colour and font. I wanted a bolder font that had more character, and a colour scheme that felt (re)fresh(ing).
+
+(typography tests 2) (design elements).
+
+After combining these elements together, I created a new version of this portfolio. Some screenshots taken early after redesigning are shown below.
+
+(redesign screenshots).
+
 
 ### Usability Considerations & Accessibility ### 
 
