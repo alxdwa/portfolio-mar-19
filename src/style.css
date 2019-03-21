@@ -15,6 +15,14 @@ body {
   font-size: 15pt;
 }
 
+
+body:not(.user-is-tabbing) button:focus,
+body:not(.user-is-tabbing) input:focus,
+body:not(.user-is-tabbing) select:focus,
+body:not(.user-is-tabbing) textarea:focus {
+  outline: none;
+}
+
 .nav-work-bg {
   background: url('img/greybg.svg') no-repeat #FFFFFF;
   background-size: 100%;
@@ -79,7 +87,7 @@ button, button:focus {
 }
 
 ul, li {
-  list-style: none;
+list-style: none;
   margin: auto;
   padding: 0;
 }
@@ -168,9 +176,26 @@ p {
   flex-direction: column;
 }
 
-.visible {
-  display: flex;
+
+.nav-work-content p, .nav-about-content p, .nav-contact-content p {
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
+
+h3 {
+  margin: 0;
+  padding: 0;
+  font-size: inherit;
+  font-weight: 700;
+
+}
+
+.repolink {
+  display: inline-block;
+  float: right;
+}
+
+
 
 h2 {
   font-family: 'Anderson Black';
@@ -236,6 +261,10 @@ a:active {
   padding: 0px 20px 0px 0px;
 }
 
+.box1 table {
+  padding-top: 10px;
+}
+
 .box1 a {
   font-family: 'Fira Mono';
   text-shadow: 0px 0px;
@@ -244,20 +273,44 @@ a:active {
   color: #000000;
 }
 
-.sketches {
-  display: none;
-}
 
-.box2 img, .box2 div {
+#box2 img {
   width: 100%;
+}
+
+
+
+
+#box2 .section {display:none;}
+#box2.funpassgen .funpassgen,
+#box2.zen-garden .zen-garden,
+#box2.sketches .sketches,
+#box2.paper-1 .paper-1,
+#box2.circle-2 .circle-2,
+#box2.perlin-mountain-1 .perlin-mountain-1,
+#box2.flower-1 .flower-1,
+#box2.circle-1 .circle-1,
+#box2.sine-wave-1 .sine-wave-1 {display: block;}
+
+.list {
   display: none;
 }
 
+.about-show-more {
+  display: none;
+}
 
 .visible {
   display: flex;
 }
 
+.tech-stack i {
+  font-size: 3em;
+}
+
+.tech-stack td {
+  padding: 10px;
+}
 
 @media screen and (min-width: 550px) {
 
@@ -362,13 +415,14 @@ a:active {
   .box1 {
     padding-right: 20px;
     flex: 1 1 auto;
-    width: 20%;
+    width: 10%;
+    min-width: 250px;
   }
 
-  .box2 {
+  #box2 {
     padding-left: 20px;
     flex: 1 1 auto;
-    width: 60%;
+    width: 50%;
   }
   
   .box3 {

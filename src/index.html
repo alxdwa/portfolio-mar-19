@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" type="text/css" media="screen" href="normalize.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
   <link rel="stylesheet" type="text/css" media="screen" href="style.css">
   <link rel="icon" href="img/browser_logo.png" />
   <script src="js/main.js"></script>
@@ -51,52 +52,126 @@
 
           <div class="box1">
             <ul>
-              <li><a href="javascript:void(null)" onclick="imgToggle('funpassgen')">FunPassGen</a></li>
-              <li><a href="javascript:void(null)" onclick="imgToggle('zen-garden')">CSS Zen Garden</a></li>
-              <li><a href="javascript:void(null)" onclick="myNavFunction('.sketches')">p5.js sketches</a></li>
-              <br>
-              <div class="sketches">
-                <table class="p5js-sketches">
-                  <tr>
-                    <td>18.3.19</td>
-                    <td><a href="javascript:void(null)" onclick="imgToggle('paper-1')">paper-1</a></td>
-                  </tr>
-                  <tr>
-                    <td>13.3.19</td>
-                    <td><a href="javascript:void(null)" onclick="imgToggle('perlin-mountain-1')">perlin-mountain-1</a></td>
-                  </tr>
-                  <tr>
-                    <td>10.3.19</td>
-                    <td><a href="javascript:void(null)" onclick="imgToggle('circle-2')">circle-2</a></td>
-                  </tr>
-                  <tr>
-                    <td>3.3.19</td>
-                    <td><a href="javascript:void(null)" onclick="imgToggle('flower-1')">flower-1</a></td>
-                  </tr>
-                  <tr>
-                    <td>2.3.19</td>
-                    <td><a href="javascript:void(null)" onclick="imgToggle('circle-1')">circle-1</a></td>
-                  </tr>
-                  <tr>
-                    <td>1.3.19</td>
-                    <td><a href="javascript:void(null)" onclick="imgToggle('sine-wave-1')">sine-wave-1</a></td>
-                  </tr>
-                </table>
+              <li><a href="javascript:void(null)" onclick="showWork('funpassgen')">FunPassGen</a></li>
+              <li><a href="javascript:void(null)" onclick="showWork('zen-garden')">CSS Zen Garden</a></li>
+              <li><a href="javascript:void(null)" onclick="myNavFunction('.list')">p5.js sketches</a></li>
+              
+              <li>
+                <div class="list">
+                    <table>
+                        <tr>
+                          <td>18.3.19</td>
+                          <td>
+                            <a href="javascript:void(null)" onclick="showWork('paper-1')">paper-1</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>13.3.19</td>
+                          <td>
+                            <a href="javascript:void(null)" onclick="showWork('perlin-mountain-1')">perlin-mountain-1</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>10.3.19</td>
+                          <td>
+                            <a href="javascript:void(null)" onclick="showWork('circle-2')">circle-2</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>3.3.19</td>
+                          <td>
+                              <a href="javascript:void(null)" onclick="showWork('flower-1')">flower-1</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>2.3.19</td>
+                          <td>
+                              <a href="javascript:void(null)" onclick="showWork('circle-1')">circle-1</a>
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>1.3.19</td>
+                          <td>
+                            <a href="javascript:void(null)" onclick="showWork('sine-wave-1')">sine-wave-1</a>
+                          </td>
+                        </tr>
+                    </table>
+                  </div>
+              </li>
+            </ul>          
+          </div>
+
+          <div id="box2">
+
+              <div class="section funpassgen">
+                <p>
+                  <a class="repolink" href="https://github.com/alxdwa/fun-pass-gen" target="_blank">GitHub Repo</a>
+                  <h3>FunPassGen</h3>
+                  by Alex Diwa and  <a href="https://github.com/tjde" target="_blank">Jade Rosario</a>
+                </p>
+                <p>
+                  FunPassGen - or Fun Password Generator - is a terminal application written in Ruby. FunPassGen generates a secure password based on the user's responses to prompts, as well as a memorable story that enables easy password recall. Additionally, the app can encrypt the password for the user. 
+                </p>
+                <br>
+                <img id="funpassgen" src="img/funpassgen-composite.png" />
               </div>
-            </ul>
-          </div>
 
-          <div class="box2" id="box2">
-            <img id="funpassgen" src="img/funpassgen-composite.png" />
-            <img id="zen-garden" src="img/zen-garden-composite.png" />
-            <img id="paper-1" src="img/paper-1-img.png" />
-            <img id="perlin-mountain-1" src="img/perlin-mountain-1-img.png" />
-            <img id="circle-2" src="img/circle-2-img.png" />
-            <img id="flower-1" src="img/flower-1-img.png" />
-            <img id="circle-1" src="img/circle-1-img.png" />
-            <img id="sine-wave-1" src="img/sine-wave-1-img.png" />
-          </div>
+              <div class="section zen-garden">
+                <p>
+                    <a class="repolink" href="https://github.com/alxdwa/css-zen-garden-2" target="_blank">GitHub Repo</a>
+                    <h3>CSS Zen Garden</h3>
+                </p>
+                <p>
+                  The <a href="http://www.csszengarden.com">CSS Zen Garden</a> webpage redesigned using only CSS, and using a mobile-first approach to responsive design. A preliminary (desktop-first) version can be found <a href="https://github.com/alxdwa/css-zen-garden" target="_blank">here</a>. 
+                </p>
+                <br>
+                <img id="zen-garden" src="img/zen-garden-composite.png" />
+              </div>
 
+              <div class="section paper-1">
+                <img id="paper-1" src="img/paper-1-img.png" />
+                <p class="repolink">
+                    <a href="https://editor.p5js.org/alxdwa/full/zjH1ptWdN" target="_blank">Live Version</a> | <a href="https://github.com/alxdwa/paper-1" target="_blank">GitHub Repo</a>
+                </p>
+              </div>
+
+              <div class="section circle-2">
+                <img id="circle-2" src="img/circle-2-img.png" />
+                <p class="repolink">
+                    <a href="https://editor.p5js.org/alxdwa/full/bzXuDUoP5" target="_blank">Live Version</a> | <a href="https://github.com/alxdwa/circle-2" target="_blank">GitHub Repo</a>
+                </p>
+              </div>
+
+              <div class="section perlin-mountain-1">
+                <img id="perlin-mountain-1" src="img/perlin-mountain-1-img.png" />
+                <p class="repolink">
+                    <a href="https://editor.p5js.org/alxdwa/full/CbunqCFCj" target="_blank">Live Version</a> | <a href="https://github.com/alxdwa/perlin-mountain-1" target="_blank">GitHub Repo</a>
+                </p>
+              </div>
+
+              <div class="section flower-1">
+                <img id="flower-1" src="img/flower-1-img.png" />
+                <p class="repolink">
+                    <a href="https://editor.p5js.org/alxdwa/full/W-dlmr9bt" target="_blank">Live Version</a> | <a href="https://github.com/alxdwa/flower-1" target="_blank">GitHub Repo</a>
+                </p>
+              </div>
+
+              <div class="section circle-1">
+                <img id="circle-1" src="img/circle-1-img.png" />
+                <p class="repolink">
+                    <a href="https://editor.p5js.org/alxdwa/full/8H_IvELwj" target="_blank">Live Version</a> | <a href="https://github.com/alxdwa/circle-1" target="_blank">GitHub Repo</a>
+                </p>
+              </div>
+
+              <div class="section sine-wave-1">
+                <img id="sine-wave-1" src="img/sine-wave-1-img.png" />
+                <p class="repolink">
+                    <a href="https://editor.p5js.org/alxdwa/full/B6uTfs8mt" target="_blank">Live Version</a> | <a href="https://github.com/alxdwa/sine-wave-1" target="_blank">GitHub Repo</a>
+                </p>
+              </div>
+
+            </div>
+            
           <div class="box3">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti vel, ea ad porro placeat libero, repellendus aperiam repudiandae eaque ipsa accusantium natus laborum? Tenetur ex optio illo amet asperiores quaerat.</p>
           </div>
@@ -113,28 +188,63 @@
 
         <div class="nav-about-content">
           <div class="box4">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem corrupti quibusdam aliquid vitae neque eligendi pariatur? In animi ratione culpa accusamus, numquam eaque, corrupti excepturi ad molestiae ipsum iusto. Ipsa!</p>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem corrupti quibusdam aliquid vitae neque eligendi pariatur? In animi ratione culpa accusamus, numquam eaque, corrupti excepturi ad molestiae ipsum iusto. Ipsa!
+            </p>
+            <p>
+              <a href="javascript:void(null)" onclick="myNavFunction('.about-show-more')">Show my work history!</a>
+            </p>
+
           </div>
           <div class="box5">
-              <p>TECH STACK:</p>
-              <br>
-              <p>
-                <ul>
-                  <li>HTML5</li>
-                  <li>CSS3</li>
-                  <li>Ruby on Rails</li>
-                  <li>JavaScript</li>
-                  <li>MongoDB</li>
-                  <li>Express</li>
-                  <li>React</li>
-                  <li>Node.js</li>
-                  <li>p5.js</li>
-                </ul>
-              </p>
+                <table class="tech-stack">
+                  <tr>
+                    <td>
+                      <i class="devicon-html5-plain-wordmark colored"></i>
+                    </td>
+                    <td>
+                      <i class="devicon-css3-plain-wordmark colored"></i>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <i class="devicon-ruby-plain-wordmark colored"></i>
+                    </td>
+                    <td>
+                      <i class="devicon-rails-plain-wordmark colored"></i>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <i class="devicon-javascript-plain colored"></i>
+                    </td>
+                    <td>
+                        <i class="devicon-react-original-wordmark colored"></i>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                        <i class="devicon-mongodb-plain-wordmark colored"></i>
+                    </td>
+                    <td>
+                      <i class="devicon-express-original colored"></i>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <i class="devicon-nodejs-plain colored"></i>
+                    </td>
+                  </tr>
+                </table>
           </div>
           <div class="box6">
             <img class="profile" src="img/profile.png">
           </div>
+        </div>
+        <div class="about-show-more">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus non commodi minus aperiam repellat. Ipsa, voluptate corporis fugiat nulla rerum dolorem aliquid dolore odit sed tenetur? Eveniet illum at facilis.
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio possimus officiis sint maiores dolorum amet modi minima quod. Excepturi explicabo hic accusantium quaerat nostrum debitis minus praesentium non ratione et. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem voluptatem itaque deleniti! Quidem, ullam odio. Non magnam iure nam neque perferendis cum expedita consequuntur inventore? Voluptatem, perferendis ipsam. Atque, reiciendis! 
+          <br>LINK TO CV!! (pdf)
         </div>
         <a href="javascript:void(null)" class="scrolltop" onclick="myScrollFunction('.landing-page')"><i class="fas fa-arrow-up"></i></a>
       </div>
