@@ -29,7 +29,17 @@ body:not(.user-is-tabbing) textarea:focus {
   background-position: top 10px right 10px;
 }
 
-button, button:focus {
+button {
+  text-align: left;
+}
+
+button:hover {
+  cursor:pointer;
+}
+
+
+
+button#navbar, button#navbar:focus {
   background: url('img/win98_dir.png') no-repeat transparent;
   background-size: 80%;
   background-position: 50% 50%;
@@ -39,6 +49,26 @@ button, button:focus {
   width: 50px;
   height: 60px;
 }
+
+.nav-links button, .navlinks button:focus,
+#box1 button, #box1 button:focus,
+h3 button, h3 button:focus {
+  background: transparent;
+  border: none;
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+button.scrolltop {
+  background: transparent;
+  border: none;
+}
+
+button:active {
+  color: #000000;
+  background-color: #F12C05 !important;
+}
+
 
 .landing-page {
   margin: 0;
@@ -288,14 +318,6 @@ a:active {
   padding-top: 10px;
 }
 
-#box1 a {
-  font-family: 'Fira Mono';
-  text-shadow: 0px 0px;
-  letter-spacing: 0px;
-  font-weight: 500;
-  color: #000000;
-}
-
 #box1 ul {
   list-style-image: url('img/win98_smalldoc.png');
   margin-left: 20px;
@@ -336,7 +358,7 @@ td#watermelon {
   padding-top: 20px;
 }
 
-#watermelon a {
+#watermelon button, #watermelon button:focus {
   text-decoration: none;
 }
 
@@ -508,7 +530,7 @@ iframe {
     padding-right: 20px;
     flex: 1 1 auto;
     width: 10%;
-    min-width: 260px;
+    min-width: 280px;
   }
 
   #box2 {
