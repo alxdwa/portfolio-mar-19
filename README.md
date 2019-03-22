@@ -1,15 +1,16 @@
 ![Portfolio March 2019](https://github.com/alxdwa/portfolio-mar-19/blob/master/docs/0_header.png)
 
-PORTFOLIO LINK: https://alxdwa.github.io/
-REPO LINK: 
+PORTFOLIO LINK: https://alxdwa.github.io
+
+REPO LINK: https://github.com/alxdwa/alxdwa.github.io
 
 ## Description ##
 
-This README documents the development of my personal and professional portfolio, including details on its design, planning and execution.
+This README documents the development of my first personal and professional portfolio (as of March 2019), including details on its design, planning and execution.
 
 ### Purpose & Target Audience ### 
 
-Through this portfolio, I want to showcase my skills, attributes and personality in an effective, compelling and genuine way. This portfolio should and will be an important tool in networking, developing my personal brand and increasing my online presence. Its purpose is also to attract prospective internship providers, prospective employers and prospective collaborators. As such, it should be targeted to a wide audience spanning all demographics, and appeal to (and be accessible by) anyone irrespective of age, gender, ability, sexual orientation, race or religion.
+Through this portfolio, I want to showcase my skills, attributes and personality in an effective, compelling and genuine way. This portfolio should and will be an important tool in networking, developing my personal brand and increasing my online presence. Its purpose is also to attract prospective internship providers, employers and collaborators. As such, it should be targeted to a wide audience spanning all demographics, and appeal to (and be accessible by) anyone irrespective of age, gender, ability, sexual orientation, race or religion. 
 
 ### Functionality & Features ### 
 
@@ -17,7 +18,11 @@ This portfolio is structured as a single-page website with 4 sections: a landing
 
 ### Screenshots ### 
 
-INSERT SCREENSHOTS OF WEBPAGE
+Below are screenshots of the portfolio as of Saturday March 23, 2019. Although this will be submitted for assessment on March 24, 2019, development and update of this site will be ongoing and this by no means represents the final product. 
+
+![screenshots for desktop](https://github.com/alxdwa/portfolio-mar-19/blob/master/docs/14_screenshots_desktop.png)
+
+![screenshots for handheld devices](https://github.com/alxdwa/portfolio-mar-19/blob/master/docs/13_screenshots_handheld.png)
 
 ### Tech Stack ### 
 
@@ -27,7 +32,7 @@ This portfolio was built using HTML5, CSS3 and JavaScript.
 
 ### Project Plan & Timeline ### 
 
-The portfolio needs to be deployed within the timeframe of one week. 
+The portfolio needs to be deployed within the timeframe of one week, so careful time management was required. 
 
 ### Trello: Brainstorming & Agile Workflow ###
 
@@ -109,7 +114,11 @@ Second agile sprint:
 
 ### Usability Considerations & Accessibility ### 
 
+In building this site, I encountered a number of accessibility challenges. The first was the use of anchor tags with `href="javascript:void(0)"` to call onclick javascript functions, which I later read was bad practice as they performed a function rather than changing the url, which makes for difficult/non-intuitive navigation. So, I changed all the relevant anchor tags to buttons. I also changed the navigation system halfway through the project, as my original concept involved using two separate divs switching between `display:none` and `:flex` alternately with changing screen sizes, but this produced hidden links that could be accessed through tabbing as an unintended consequence. 
 
+I implemented some, but not all, accessibility features that the [A11y Project](https://a11yproject.com/checklist) recommends. I was not able to ensure that the page could be intuitively navigated using a keyboard, at least within the timeframe of the assignment. This is because I did not, at the time, understand the consequences of using JavaScript as a means of navigating throughout the page, as opposed to linking to different parts with a `<a href="#section">` tag. Implementing the former means that once a button is clicked e.g. 'Contact', the page doesn't register that the section has been updated and this interrupts the intuitive keyboard navigation throughout the document. I read that there are ways around this, but I was not able to both understand and implement this code within the given time frame of assigment submission, as - unfortunately - I had left my attempts at accessibility rather late in the process. Upon reflection, accessibility should be a focus early on in the process and should inform code design and structure. For this project, implementing and ensuring accessiblity to the best of my abilities is ongoing and needs to continue after the portfolio submission deadline.
+
+Other usability considerations that I did not account for include fallbacks for disabled JavaScript, and browser support other than for Google Chrome. I briefly tested the portfolio also in Safari and Mozilla Firefox. The JS smooth scroll is not supported by Safari, at least, but otherwise the website fully functional.
 
 ## Q & A ##
 
