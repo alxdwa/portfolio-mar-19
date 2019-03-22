@@ -413,13 +413,14 @@ iframe {
 
   .nav-links {
     background: none;
-    width: auto;
+    width: 200px;
     height: auto;
     display: inline-block;
     z-index: 2;
-    position:fixed;
+    position: fixed;
     top: 10%;
-    right: 0px;
+    right: 20px;
+    margin-left: auto;
     letter-spacing: 0px;
     color: #000000;
     text-decoration: none;
@@ -591,11 +592,13 @@ iframe {
   }
   .nav-links {
     direction: ltr;
+    width: 350px;
+    right: 0px;
   }
     
   .nav-links li {
     display: inline;
-    margin-right: 30px;
+    margin-right: 10px;
   }
 
   .about-show-more {
