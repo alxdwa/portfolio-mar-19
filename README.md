@@ -1,7 +1,7 @@
 ![Portfolio March 2019](https://github.com/alxdwa/portfolio-mar-19/blob/master/docs/0_header.png)
 
-PORTFOLIO LINK:
-REPO LINK:
+PORTFOLIO LINK: https://alxdwa.github.io/
+REPO LINK: 
 
 ## Description ##
 
@@ -9,7 +9,7 @@ This README documents the development of my personal and professional portfolio,
 
 ### Purpose & Target Audience ### 
 
-Through this portfolio, I want to showcase my skills, attributes and personality in an effective, compelling and genuine way. This portfolio should and will be an important tool in networking, developing my personal brand and increasing my online presence. Its purpose is also to attract prospective internship providers, prospective employers and prospective collaborators. As such, it should be targeted to a wide audience spanning all demographics, and appeal to (and be accessible by) anyone irrespective of age, gender, ability, sexual orientation, race or religion. 
+Through this portfolio, I want to showcase my skills, attributes and personality in an effective, compelling and genuine way. This portfolio should and will be an important tool in networking, developing my personal brand and increasing my online presence. Its purpose is also to attract prospective internship providers, prospective employers and prospective collaborators. As such, it should be targeted to a wide audience spanning all demographics, and appeal to (and be accessible by) anyone irrespective of age, gender, ability, sexual orientation, race or religion.
 
 ### Functionality & Features ### 
 
@@ -21,7 +21,7 @@ INSERT SCREENSHOTS OF WEBPAGE
 
 ### Tech Stack ### 
 
-This portfolio was built using HTML5, CSS3 and JavaScript. In early versions, I employed jQuery to make for easy scripting of toggling and smooth scrolling, but later switched to using plain JavaScript to perform these functions. 
+This portfolio was built using HTML5, CSS3 and JavaScript. 
 
 ## Design & Planning ##
 
@@ -29,13 +29,21 @@ This portfolio was built using HTML5, CSS3 and JavaScript. In early versions, I 
 
 The portfolio needs to be deployed within the timeframe of one week. 
 
-### Trello Brainstorming ###
+### Trello: Brainstorming & Agile Workflow ###
+
+Trello board for brainstorming prior to beginning the project:
 
 ![trello_1_brainstorm](https://github.com/alxdwa/portfolio-mar-19/blob/master/docs/1_trello_brainstorm.png)
+
+I also used Trello to plan my sprints, using a method I have found useful before (3 columns: To Do, Doing and Done). This allows me to keep track of my goals and what needs to be done. I found it helpful to have an extra column that had my 'sprinkles' -- additional features that weren't necessary for the MVP but that I eventually wanted to implement, perhaps not within the timeframe of the week in which this portfolio needed to be completed. 
+
+First agile sprint:
+
 ![trello 2_workflow sprint 1](https://github.com/alxdwa/portfolio-mar-19/blob/master/docs/5_trello_workflow.png)
-![trello sprint 2](https://github.com/alxdwa/portfolio-mar-19/blob/master/docs/5a_trello_sprint2.png)
 
 ### Moodboard ###
+
+First moodboard for initial design, compiled based on brainstorming descriptive words (see trello board above). 
 
 ![moodboard](https://github.com/alxdwa/portfolio-mar-19/blob/master/docs/2_pinterest_moodboard.png)
 
@@ -57,9 +65,11 @@ Wireframe for desktop. Dimensions of 1024 x 768 used as a guide.
 
 #### Code Structure ####
 
-I wanted to create a simple page that was easy and intuitive to navigate. As such, I decided on a single-page website that could be navigated by scrolling or by clicking on links. FLEXBOX ETC.
+I wanted to create a simple page that was easy and intuitive to navigate. As such, I decided on a single page with divs that delinated each of the 4 sections. I later ended up placing these divs in larger container divs to add whitespace and backgrounds above and/or below each of the sections. 
 
-The main challenge was making sure that the page was responsive. 
+Beginning the coding process, I adopted a mobile-first approach which made for a relatively straightforward transition to design for desktop. A common motif was the use of CSS flexbox and using media queries to change between flex-direction: column to row. With flexbox, I had a great degree of control over the overall structure of each section. Only after formatting the pages for mobile and for desktop did I begin to consider the layout for tablets. An additional media query was used for screen sizes between 550 and 768 pixels width to optimise a clean layout with appropriate whitespace, which included formatting the navigation bar slightly differently and some of the flexbox proportions. 
+
+I used a little JavaScript to add some extra functionality--smooth scrolling and toggling between div visibility (e.g. in the portfolio section, and for the pop-up navigation bar for mobile devices). I initially used jQuery to accomplish these tasks as it had built in features for these functions, but later switched to using plain JS. 
 
 #### Preliminary Designs ####
 
@@ -93,6 +103,9 @@ Combining these elements together, along with design elements from the earlier v
 
 ![early redesign](https://github.com/alxdwa/portfolio-mar-19/blob/master/docs/11_redesign.png)
 
+Second agile sprint:
+
+![trello sprint 2](https://github.com/alxdwa/portfolio-mar-19/blob/master/docs/5a_trello_sprint2.png)
 
 ### Usability Considerations & Accessibility ### 
 
