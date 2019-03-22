@@ -24,13 +24,13 @@ body:not(.user-is-tabbing) textarea:focus {
 }
 
 #nav-work-bg {
-  background: url('img/greybg.svg') no-repeat #FFFFFF;
-  background-size: 100%;
-  background-position: top 250px right 50px;
+  background: url('img/greybg2.svg') no-repeat #FFFFFF;
+  background-size: 90%;
+  background-position: top 10px right 10px;
 }
 
 button, button:focus {
-  background: url('img/folder.png') no-repeat transparent;
+  background: url('img/win98_dir.png') no-repeat transparent;
   background-size: 80%;
   background-position: 50% 50%;
   color: transparent;
@@ -76,7 +76,7 @@ button, button:focus {
   left:0px;
   width: 100%;
   height: 100%;
-  text-align: center;
+  /* text-align: center; */
   font-size: 1.8em;
   letter-spacing: 0px;
   font-weight: 500;
@@ -84,14 +84,18 @@ button, button:focus {
 }
 
 ul, li {
-  list-style: none;
   margin: auto;
   padding: 0;
 }
 
+.nav-links ul {
+  list-style-image: url('img/win98_largedoc.png');
+  padding-left: 20px;
+}
+
 #welcome-message {
   margin: 0;
-  margin-top: 20%;
+  margin-top: 5%;
   padding: 10px;
   border: 0px solid black;
   font-size: 25pt;
@@ -143,8 +147,8 @@ p {
 
 #nav-about-bg {
   background: url('img/aboutbg.svg') no-repeat transparent;
-  background-size: 150% ;
-  background-position: left 20px top 100px;
+  background-size: 200% ;
+  background-position: left -100px top -50px;
 }
 
 #nav-contact-bg div:nth-of-type(3) {
@@ -292,6 +296,22 @@ a:active {
   color: #000000;
 }
 
+#box1 ul {
+  list-style-image: url('img/win98_smalldoc.png');
+  margin-left: 20px;
+}
+
+#box1 li:nth-child(1) {
+  list-style-image: url('img/win98_console.png');
+}
+
+#box1 li:nth-child(3) {
+  list-style-image: url('img/win98_smalldir.png');
+}
+
+#box1 td:nth-child(1) {
+  text-align: right;
+}
 
 #box2 img {
   width: 100%;
@@ -383,11 +403,15 @@ iframe {
     text-decoration: none;
     font-size: 0.8em;
     text-align: right;
+    direction: rtl;
+    line-height: 1.5em;
   }
 
   .nav-links ul {
-    margin-right: 40px;
+    margin-right: 50px;
+    list-style-image: url('img/win98_smalldoc.png');
   }
+
   
   #welcome-message {
     width: 60%;
@@ -424,11 +448,6 @@ iframe {
     background-position-y: 0px;
   }
 
-  ul, li {
-    margin: 0;
-    padding: 0;
-  }
-
   .spacer {
     height: 30vh;
   }
@@ -459,8 +478,8 @@ iframe {
 @media screen and (min-width: 769px) {
 
   #nav-work-bg {
-    background-size: 70%;
-    background-position: top 0px right 100px;
+    background-size: 50%;
+    background-position: top 1% right 10%;
   }
 
   .landing-page {
