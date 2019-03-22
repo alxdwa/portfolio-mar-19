@@ -18,43 +18,43 @@
     <button id="navbar" onclick="myNavFunction('.nav-links')">Navigation</button>
     <div class="nav-links">
       <ul>
-        <li><a href="javascript:void(null)" class="work" onclick="myScrollFunction('.nav-work')">Work</a></li>
-        <li><a href="javascript:void(null)" class="about" onclick="myScrollFunction('.nav-about')">About</a></li>
-        <li><a href="javascript:void(null)" class="contact" onclick="myScrollFunction('.nav-contact')">Contact</a></li>
+        <li><a href="javascript:void(0)" class="work" onclick="myScrollFunction('.nav-work')">Work</a></li>
+        <li><a href="javascript:void(0)" class="about" onclick="myScrollFunction('.nav-about')">About</a></li>
+        <li><a href="javascript:void(0)" class="contact" onclick="myScrollFunction('.nav-contact')">Contact</a></li>
       </ul>
     </div>
   </nav>
 
   <div class="landing-page">
-    <header class="welcome-message" role="banner">
+    <header id="welcome-message" role="banner">
       <h1>Hi, I'm Alex.</h1>
       <p>I'm a full-stack web developer based in Sydney, Australia.</p>
     </header>
   </div>
 
-  <div class="contact-links">
+  <div id="contact-links">
     <a href="https://github.com/alxdwa" target="_blank"><i class="fab fa-github"></i></a>
     <a href="https://twitter.com/alxdwa" target="_blank"><i class="fab fa-twitter"></i></a>
     <a href="https://medium.com/@alxdwa" target="_blank"><i class="fab fa-medium-m"></i></a>
-    <a href="https://www.linkedin.com/in/alex-diwa-9a6a40180/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+    <a href="https://www.linkedin.com/in/alxdwa/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
     <a href="mailto:atdiwa@gmail.com?subject=Hi Alex!"><i class="far fa-envelope"></i></a>
   </div>
 
 
 
   <main role="main">
-    <div class="nav-work-bg">
+    <div id="nav-work-bg">
       <div class="spacer"></div>
       <div class="spacer"></div>
       <div class="nav-work">
         <h2>Portfolio</h2>
-        <div class="nav-work-content">
+        <div id="nav-work-content">
 
-          <div class="box1">
+          <div id="box1">
             <ul>
-              <li><a href="javascript:void(null)" onclick="showWork('funpassgen')">FunPassGen</a></li>
-              <li><a href="javascript:void(null)" onclick="showWork('zen-garden')">CSS Zen Garden</a></li>
-              <li><a href="javascript:void(null)" onclick="myNavFunction('.list')">p5.js sketches</a></li>
+              <li><a href="javascript:void(0)" onclick="showWork('funpassgen')">FunPassGen</a></li>
+              <li><a href="javascript:void(0)" onclick="showWork('zen-garden')">CSS Zen Garden</a></li>
+              <li><a href="javascript:void(0)" onclick="myNavFunction('.list')">p5.js sketches</a></li>
               
               <li>
                 <div class="list">
@@ -62,43 +62,43 @@
                         <tr>
                           <td>18.3.19</td>
                           <td>
-                            <a href="javascript:void(null)" onclick="showWork('paper-1')">paper-1</a>
+                            <a href="javascript:void(0)" onclick="showWork('paper-1')">paper-1</a>
                           </td>
                         </tr>
                         <tr>
                           <td>13.3.19</td>
                           <td>
-                            <a href="javascript:void(null)" onclick="showWork('perlin-mountain-1')">perlin-mountain-1</a>
+                            <a href="javascript:void(0)" onclick="showWork('perlin-mountain-1')">perlin-mountain-1</a>
                           </td>
                         </tr>
                         <tr>
                           <td>10.3.19</td>
                           <td>
-                            <a href="javascript:void(null)" onclick="showWork('circle-2')">circle-2</a>
+                            <a href="javascript:void(0)" onclick="showWork('circle-2')">circle-2</a>
                           </td>
                         </tr>
                         <tr>
                           <td>3.3.19</td>
                           <td>
-                              <a href="javascript:void(null)" onclick="showWork('flower-1')">flower-1</a>
+                              <a href="javascript:void(0)" onclick="showWork('flower-1')">flower-1</a>
                           </td>
                         </tr>
                         <tr>
                           <td>2.3.19</td>
                           <td>
-                              <a href="javascript:void(null)" onclick="showWork('circle-1')">circle-1</a>
+                              <a href="javascript:void(0)" onclick="showWork('circle-1')">circle-1</a>
                           </td>
                         </tr>
                         <tr>
                           <td>1.3.19</td>
                           <td>
-                            <a href="javascript:void(null)" onclick="showWork('sine-wave-1')">sine-wave-1</a>
+                            <a href="javascript:void(0)" onclick="showWork('sine-wave-1')">sine-wave-1</a>
                           </td>
                         </tr>
                         <tr>
                           <td></td>
                           <td id="watermelon">
-                            <a href="javascript:void(null)" onclick="showWork('leslie')">&#x1F349;</a>
+                            <a href="javascript:void(0)" onclick="showWork('leslie')">&#x1F349;</a>
                           </td>                         
                         </tr>
                     </table>
@@ -119,7 +119,7 @@
                   FunPassGen - or Fun Password Generator - is a terminal application written in Ruby. FunPassGen generates a secure password based on the user's responses to prompts, as well as a memorable story that enables easy password recall. Additionally, the app can encrypt the password for the user. 
                 </p>
                 <br>
-                <img id="funpassgen" src="src/img/funpassgen-composite.png" />
+                <img alt="screenshots of the Fun Pass Gen application" id="funpassgen" src="src/img/funpassgen-composite.png" />
               </div>
 
               <div class="section zen-garden">
@@ -131,53 +131,53 @@
                   The <a href="http://www.csszengarden.com">CSS Zen Garden</a> webpage redesigned using only CSS, and using a mobile-first approach to responsive design. A preliminary (desktop-first) version can be found <a href="https://github.com/alxdwa/css-zen-garden" target="_blank">here</a>. 
                 </p>
                 <br>
-                <img id="zen-garden" src="src/img/zen-garden-composite.png" />
+                <img alt="screenshots of CSS Zen Garden redesign" id="zen-garden" src="src/img/zen-garden-composite.png" />
               </div>
 
               <div class="section paper-1">
-                <img id="paper-1" src="src/img/paper-1-img.png" />
+                <img alt="sketch made using p5.js titled paper-1" id="paper 1" src="src/img/paper-1-img.png" />
                 <p class="repolink">
                     <a href="https://editor.p5js.org/alxdwa/full/zjH1ptWdN" target="_blank">Live Version</a> | <a href="https://github.com/alxdwa/paper-1" target="_blank">GitHub Repo</a>
                 </p>
               </div>
 
               <div class="section circle-2">
-                <img id="circle-2" src="src/img/circle-2-img.png" />
+                <img alt="sketch made using p5.js titled circle 2"  id="circle-2" src="src/img/circle-2-img.png" />
                 <p class="repolink">
                     <a href="https://editor.p5js.org/alxdwa/full/bzXuDUoP5" target="_blank">Live Version</a> | <a href="https://github.com/alxdwa/circle-2" target="_blank">GitHub Repo</a>
                 </p>
               </div>
 
               <div class="section perlin-mountain-1">
-                <img id="perlin-mountain-1" src="src/img/perlin-mountain-1-img.png" />
+                <img alt="sketch made using p5.js titled perlin mountain 1"  id="perlin-mountain-1" src="src/img/perlin-mountain-1-img.png" />
                 <p class="repolink">
                     <a href="https://editor.p5js.org/alxdwa/full/CbunqCFCj" target="_blank">Live Version</a> | <a href="https://github.com/alxdwa/perlin-mountain-1" target="_blank">GitHub Repo</a>
                 </p>
               </div>
 
               <div class="section flower-1">
-                <img id="flower-1" src="src/img/flower-1-img.png" />
+                <img alt="sketch made using p5.js titled flower 1"  id="flower-1" src="src/img/flower-1-img.png" />
                 <p class="repolink">
                     <a href="https://editor.p5js.org/alxdwa/full/W-dlmr9bt" target="_blank">Live Version</a> | <a href="https://github.com/alxdwa/flower-1" target="_blank">GitHub Repo</a>
                 </p>
               </div>
 
               <div class="section circle-1">
-                <img id="circle-1" src="src/img/circle-1-img.png" />
+                <img alt="sketch made using p5.js titled circle 1" id="circle-1" src="src/img/circle-1-img.png" />
                 <p class="repolink">
                     <a href="https://editor.p5js.org/alxdwa/full/8H_IvELwj" target="_blank">Live Version</a> | <a href="https://github.com/alxdwa/circle-1" target="_blank">GitHub Repo</a>
                 </p>
               </div>
 
               <div class="section sine-wave-1">
-                <img id="sine-wave-1" src="src/img/sine-wave-1-img.png" />
+                <img alt="sketch made using p5.js titled sine wave 1"  id="sine-wave-1" src="src/img/sine-wave-1-img.png" />
                 <p class="repolink">
                     <a href="https://editor.p5js.org/alxdwa/full/B6uTfs8mt" target="_blank">Live Version</a> | <a href="https://github.com/alxdwa/sine-wave-1" target="_blank">GitHub Repo</a>
                 </p>
               </div>
 
               <div class="section leslie">
-                <iframe src="https://editor.p5js.org/alxdwa/embed/BJTNqYtWV" scrolling="no" frameborder="0"></iframe>
+                <iframe alt="interactive sketch made using p5.js titled leslie" src="https://editor.p5js.org/alxdwa/embed/BJTNqYtWV" scrolling="no" frameborder="0"></iframe>
                 <p class="repolink">
                   <a href="https://github.com/alxdwa/portrait-of-leslie" target="_blank">GitHub Repo</a>
                 </p>
@@ -190,22 +190,22 @@
           </div> -->
         </div>
 
-       <a href="javascript:void(null)" class="scrolltop" onclick="myScrollFunction('.landing-page')"><i class="fas fa-arrow-up"></i></a>
+       <a href="javascript:void(0)" class="scrolltop" onclick="myScrollFunction('.landing-page')"><i class="fas fa-arrow-up"></i></a>
       </div>
       <div class="spacer"></div>
     </div>
-    <div class="nav-about-bg">
+    <div id="nav-about-bg">
       <div class="spacer"></div>
       <div class="nav-about">
         <h2>Alex Diwa</h2>
 
-        <div class="nav-about-content">
-          <div class="box4">
+        <div id="nav-about-content">
+          <div id="box4">
             <p>
               I’m a developer in training at Coder Academy. Before entering tech, I was a science research student who studied the structure and function of materials and proteins. I’m passionate mental health and social justice, and enjoy yoga, bushwalking and being around trees. 
             </p>
           </div>
-          <div class="box5">
+          <div id="box5">
             <p>
               I have always loved problem solving. I took a liking to coding when I was an awkward 12-year-old, when learning basic HTML and CSS allowed me to express myself creatively and connect with others in ways that I found difficult to do at school.
             </p>
@@ -220,16 +220,16 @@
             </p>
             <br>
             <p>
-              <h3><a href="javascript:void(null)" onclick="myNavFunction('.about-show-more')">Study & Work History</a></h3>
+              <h3><a href="javascript:void(0)" onclick="myNavFunction('.about-show-more')">Study & Work History</a></h3>
               (click/tap to expand)
             </p>
           </div>
-          <div class="box6">
-            <div class="box6a">
-              <img class="profile" src="src/img/profile.png">
+          <div id="box6">
+            <div id="box6a">
+              <img alt="profile picture of Alex Diwa" id="profile" src="src/img/profile.png">
             </div>
-            <div class="box6b">
-              <table class="tech-stack">
+            <div id="box6b">
+              <table id="tech-stack">
                 <tr>
                   <td>
                     <i class="devicon-html5-plain-wordmark colored"></i>
@@ -320,22 +320,22 @@
               </div>
             </div>
         </div>
-        <a href="javascript:void(null)" class="scrolltop" onclick="myScrollFunction('.landing-page')"><i class="fas fa-arrow-up"></i></a>
+        <a href="javascript:void(0)" class="scrolltop" onclick="myScrollFunction('.landing-page')"><i class="fas fa-arrow-up"></i></a>
       </div>
     </div>
 
-    <div class="nav-contact-bg">
+    <div id="nav-contact-bg">
       <div class="spacer"></div>
       <div class="nav-contact">
         <h2>Contact</h2>
-        <div class="nav-contact-content">
-          <div class="box7">
+        <div id="nav-contact-content">
+          <div id="box7">
               <h3>Let's connect.</h3>
               <p>
                 I’m always looking to meet and chat with new people. Send me an email, @ me on twitter, whatever floats your boat. Don’t be a stranger!
               </p>
           </div>
-          <div class="box8">
+          <div id="box8">
             <table>
               <tr>
                 <td>
@@ -353,7 +353,7 @@
               </tr>
               <tr>
                 <td>
-                  <a href="https://www.linkedin.com/in/alex-diwa-9a6a40180/" target="_blank"><i class="fab fa-linkedin-in"></i>
+                  <a href="https://www.linkedin.com/in/alxdwa/" target="_blank"><i class="fab fa-linkedin-in"></i>
                   <br>linkedin</a>
                 </td>
                 <td>
@@ -364,7 +364,7 @@
             </table>
           </div>
         </div>
-        <a href="javascript:void(null)" class="scrolltop" onclick="myScrollFunction('.landing-page')"><i class="fas fa-arrow-up"></i></a>
+        <a href="javascript:void(0)" class="scrolltop" onclick="myScrollFunction('.landing-page')"><i class="fas fa-arrow-up"></i></a>
       </div>
       <div class="spacer"></div>
       
@@ -373,11 +373,3 @@
 </body>
 
 </html>
-
-<div class="contact-links">
-    <a href="https://github.com/alxdwa" target="_blank"><i class="fab fa-github"></i></a>
-    <a href="https://twitter.com/alxdwa" target="_blank"><i class="fab fa-twitter"></i></a>
-    <a href="https://medium.com/@alxdwa" target="_blank"><i class="fab fa-medium-m"></i></a>
-    <a href="https://www.linkedin.com/in/alex-diwa-9a6a40180/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
-    <a href="mailto:atdiwa@gmail.com?subject=Hi Alex!"><i class="far fa-envelope"></i></a>
-  </div>

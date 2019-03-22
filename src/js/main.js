@@ -15,22 +15,6 @@ function showWork(projectName) {
   return false;
 }
 
-var imgState = {};
-function imgToggle(id) {
-    if (document.getElementById) {
-        var imgid = document.getElementById(id);
-        imgState[id] = (imgState[id]) ? false : true;
-
-        for (var img in imgState){
-            if (imgState[img] && img != id){
-                document.getElementById(img).style.display = 'none';
-                imgState[img] = false;
-            }
-        }
-        imgid.style.display = (imgid.style.display == 'block' ? 'none' : 'block');
-    }
-}
-
 // accessibility for tabbing: https://hackernoon.com/removing-that-ugly-focus-ring-and-keeping-it-too-6c8727fefcd2
 
 function handleFirstTab(e) {
