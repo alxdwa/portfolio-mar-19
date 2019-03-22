@@ -95,6 +95,7 @@ list-style: none;
 
 .welcome-message {
   margin: 0;
+  margin-top: 20%;
   padding: 10px;
   border: 0px solid black;
   font-size: 25pt;
@@ -208,6 +209,7 @@ h2 {
   font-size: 2.0em;
   width: 50%;
   text-transform: uppercase;
+  line-height: 0.8em;
 }
 
 a {
@@ -239,8 +241,17 @@ a:active {
 
 }
 
-.box7, .box8 {
+.box6 table {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.box7 {
   padding: 0px;
+}
+
+.box8 {
+  padding-top: 50px;
 }
 
 .profile {
@@ -319,6 +330,24 @@ iframe {
   width: 100%;
   margin: auto;
   margin-top: 20px;
+  flex-direction: column;
+  padding: 0px;
+}
+  
+#education {
+  flex: 1 1 auto;
+  width: 100%;
+  margin-top: 20px;
+}
+
+#work {
+  flex: 1 1 auto;
+  width: 100%;
+  margin-top: 40px;
+}
+
+.cv-box {
+  padding: 10px;
 }
 
 .visible {
@@ -358,7 +387,7 @@ iframe {
   .welcome-message {
     width: 60%;
     margin-left: 0%;
-    margin-top: 0%;
+    margin-top: 5%;
     font-size: 6.5vh;
   }
   .contact-links {
@@ -401,22 +430,25 @@ iframe {
 
   .box6 {
     display: flex;
-    align-items: center;
+    justify-content: space-between;
     flex-direction: row;
-    width: 100%;
+    width: 450px;
     margin: auto;
     max-width: 500px;
+
   }
 
   .box6a {
     flex: 1 1 auto;
-    width: 100%;
+    width: 40%;
   }
 
   .box6b {
     flex: 1 1 auto;
-    width: 50%;
+    width: 40%;
   }
+
+
 }
 
 @media screen and (min-width: 769px) {
@@ -500,6 +532,7 @@ iframe {
 
   .box6 table {
     padding-top: 30px;
+    padding-bottom: 0px;
   }
 
   .box6a {
@@ -526,6 +559,19 @@ iframe {
     width: 80%;
     margin: auto;
     margin-top: 50px;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  #education {
+    flex: 1 1 auto;
+    width: 40%;
+  }
+  
+  #work {
+    flex: 1 1 auto;
+    width: 40%;
+    margin-top: 150px;
   }
 
 }
