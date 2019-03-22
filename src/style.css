@@ -589,7 +589,10 @@ iframe {
     max-width: 400px;
     padding: 40px;
   }
-
+  .nav-links {
+    direction: ltr;
+  }
+    
   .nav-links li {
     display: inline;
     margin-right: 30px;
