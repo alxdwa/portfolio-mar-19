@@ -1,8 +1,7 @@
 ![Portfolio March 2019](https://github.com/alxdwa/portfolio-mar-19/blob/master/docs/0_header.png)
 
-PORTFOLIO LINK: https://alxdwa.github.io
-
-REPO LINK: https://github.com/alxdwa/alxdwa.github.io
+PORTFOLIO: https://alxdwa.github.io<br />
+REPO: https://github.com/alxdwa/alxdwa.github.io
 
 ## Description ##
 
@@ -16,10 +15,10 @@ Through this portfolio, I want to showcase my skills, attributes and personality
 
 This portfolio is structured as a single-page website with 4 sections:
 
-* a landing page
-* a section showcasing my work ('Work'/'Portfolio')
-* a section with details about myself ('About'/'Alex Diwa'), and
-* a section with information for people to get in touch with me ('Contact')
+1. a landing page
+2. a section showcasing my work ('Work'/'Portfolio')
+3. a section with details about myself ('About'/'Alex Diwa'), and
+4. a section with information for people to get in touch with me ('Contact')
 
 A navigation bar (pop-up for mobile devices) allows the user to move between sections on the website, but the user can also scroll between sections if preferred.
 
@@ -39,7 +38,7 @@ This portfolio was built using HTML5, CSS3 and JavaScript. The site was deployed
 
 ### Project Plan & Timeline ### 
 
-The portfolio needs to be deployed within the timeframe of one week, so careful time management was required. This was a rough timeline anf plan that I drafted at the beginning of the week:
+The portfolio needs to be deployed within the timeframe of one week, so careful time management was required. This was a rough timeline and plan that I drafted at the beginning of the week:
 
 Mon 18th:
 * Brainstorming
@@ -75,7 +74,7 @@ Sun 24th:
 * Tidy up code if need be
 * Submit
 
-Despite following the plan initially, I ended up reworking the site on the Thursday prior to commencing writing content, and in practice XXXXXXXXXXXXXXXXXXX More detailed to-do points can be seen in the trello screenshots provided here.
+Despite following the plan initially, I ended up reworking the site on the Thursday prior to commencing writing content. In practice, and as the week progressed, I found it more helpful to go through iterations/sprints guided by plans made on Trello. These contained more specific action points compared to the general goals listed above, and allowed for more flexibility as things developed. Examples and screenshots of this workflow pattern are shown below.
 
 
 ### Trello: Brainstorming & Agile Workflow ###
@@ -86,15 +85,17 @@ Trello board for brainstorming prior to beginning the project:
 
 I also used Trello to plan my sprints, using a method I have found useful before (3 columns: To Do, Doing and Done). This allows me to keep track of my goals and what needs to be done. I found it helpful to have an extra column that had my 'sprinkles' -- additional features that weren't necessary for the MVP but that I eventually wanted to implement, perhaps not within the timeframe of the week in which this portfolio needed to be completed. 
 
-First agile sprint:
+First sprint:
 
 ![trello 2_workflow sprint 1](https://github.com/alxdwa/portfolio-mar-19/blob/master/docs/5_trello_workflow.png)
+
 
 ### Moodboard ###
 
 First moodboard for initial design, compiled based on brainstorming descriptive words (see trello board above). 
 
 ![moodboard](https://github.com/alxdwa/portfolio-mar-19/blob/master/docs/2_pinterest_moodboard.png)
+
 
 ### Wireframes ### 
 
@@ -104,11 +105,13 @@ Wireframe for mobile devices, generated using Balsamiq Mockups 3. Device size of
 
 ![mobile_wireframe](https://github.com/alxdwa/portfolio-mar-19/blob/master/docs/6_wireframe_mobile.png)
 
+
 #### Desktop ####
 
 Wireframe for desktop. Dimensions of 1024 x 768 used as a guide.
 
 ![desktop_wireframe](https://github.com/alxdwa/portfolio-mar-19/blob/master/docs/7_wireframe_desktop.png)
+
 
 ### Design Process ### 
 
@@ -120,6 +123,7 @@ Beginning the coding process, I adopted a mobile-first approach which made for a
 
 I used a little JavaScript to add some extra functionality--smooth scrolling and toggling between div visibility (e.g. in the portfolio section, and for the pop-up navigation bar for mobile devices). I initially used jQuery to accomplish these tasks as it had built in features for these functions, but later switched to using plain JS. 
 
+
 #### Preliminary Designs ####
 
 While brainstorming, I listed words that I wanted to describe the look and feel of the website. These include: fresh, young, modern, abstract, open, futuristic, space, and 90s and early 2000s nostalgia. I began sketching based on these desriptive words and from the moodboard. Below is a sample of these sketches.
@@ -130,13 +134,14 @@ Early on in the process, I also sketched out some logos and experimented with co
 
 ![logo_options](https://github.com/alxdwa/portfolio-mar-19/blob/master/docs/4_logo_design2.png)
 
+Typography tests:
+
+![typography tests part 1](https://github.com/alxdwa/portfolio-mar-19/blob/master/docs/9_typography_tests1.png)
+
 Combining these design elements together, I created a few layouts, examples of which are shown below in a composite image. I chose to use a monospace font as a counterpoint to the more rounded, organic design elements of the page. The colour choices were based on inspiration from the moodboard - cool tones with accents (e.g. links) in bold colours. 
 
 ![early versions screenshots](https://github.com/alxdwa/portfolio-mar-19/blob/master/docs/8_early_version_screenshots.png)
 
-Typography tests:
-
-![typography tests part 1](https://github.com/alxdwa/portfolio-mar-19/blob/master/docs/9_typography_tests1.png)
 
 #### Redesign ####
 
@@ -152,9 +157,10 @@ Combining these elements together, along with design elements from the earlier v
 
 ![early redesign](https://github.com/alxdwa/portfolio-mar-19/blob/master/docs/11_redesign.png)
 
-Second agile sprint:
+I then used Trello to guide further development of the portfolio in a second sprint, a screenshot of which is shown here. Inevitably, this sprint was much more time consuming as more things were added to the 'To Do' list as the project continued. 
 
 ![trello sprint 2](https://github.com/alxdwa/portfolio-mar-19/blob/master/docs/5a_trello_sprint2.png)
+
 
 ### Usability Considerations & Accessibility ### 
 
@@ -166,8 +172,22 @@ Other usability considerations that I did not account for include fallbacks for 
 
 ## Q & A ##
 
-### Describe key events in the development of the internet from the 1980s to today (max. 150 words) ###
+#### Describe key events in the development of the internet from the 1980s to today (max. 150 words) ####
 
-### Define and describes the relationship between fundamental aspects of the internet such as: domains, web servers, DNS, and web browsers (max. 150 words) ###
+In 1982/83, the standard protocol for the exchange of information over networks was launched (TCP/IP), and adoption of this ARPANET signified the birth of the internet. After the creation of the DNS (1984), the release of HTTP, URL and HTML spawned the World Wide Web in 1989/1990. The first web page was created in 1991. Two web browsers became available to the public in 1993/1994 (Mosaic and Netscape). Online marketplaces were born soon after (Amazon and Ebay, 1995) and the first WiFi invented and released in 1997.
 
-### Reflect on one aspect of the development of internet technologies and how it has contributed to the world today (max. 150 words) ###
+The spread of information made progress in 1998 (Google) as well as file sharing (Napster). In the 2000s, there were significant developments in how we connect (MySpace - 2003, Facebook - 2004, Twitter - 2006), how we consume media (YouTube - 2005), how portable the internet is (iPhone release in 2007) and the ways in which we access web services (mobile applications etc).
+
+#### Define and describes the relationship between fundamental aspects of the internet such as: domains, web servers, DNS, and web browsers (max. 150 words) ####
+
+A domain is a self-contained group of computers or devices on a network that, together with other domains, make up the internet. Transmission Control Protocol/Internet Protocol (TCP/IP) determines how information moves across the internet, and within each domain. Each device (host) has its own unique IP address, and the Domain Name System (DNS) provides ‘human friendly’ aliases (domain names) for IP addresses.
+
+A web browser is a user interface that the client uses to access a website that is stored on a server. Navigating the internet is a series of client-server interactions, requests and responses. The DNS server locates the IP address associated with the domain name so a request can be sent to the website server, all done via TCP/IP. If approved, the server sends to the client data that are compiled by the web browser and rendered as a website.
+
+#### Reflect on one aspect of the development of internet technologies and how it has contributed to the world today (max. 150 words) ####
+
+Internet technologies have revolutionised how people share and acquire information, and this has resulted in dramatically changing the education landscape. One key factor in this is the increased availability of resources and educational materials, which helps remove barriers (e.g. financial, physical/geographical, disabilities) that prevent people from accessing these materials otherwise.
+
+As well as aiding accessibility, technologies such as cloud have changed the way that education is delivered, for instance with the rise of virtual classrooms and use of web apps (e.g. Google Docs) in aiding interactive learning. Online educational platforms have also facilitated greater collaboration in higher education and academia through open source projects, as well as collaboration between younger learners in the classroom environment.
+
+Increasing integration of online practices by educational institutions has also made it easier for people to find ways to access education in person, for example, applying to university (or even bootcamps) online. 
