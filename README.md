@@ -174,7 +174,7 @@ Other usability considerations that I did not account for include fallbacks for 
 
 #### Describe key events in the development of the internet from the 1980s to today (max. 150 words) ####
 
-In 1982/83, the standard protocol for the exchange of information over networks was launched (TCP/IP), and adoption of this ARPANET signified the birth of the internet. After the creation of the DNS (1984), the release of HTTP, URL and HTML spawned the World Wide Web in 1989/1990. The first web page was created in 1991. Two web browsers became available to the public in 1993/1994 (Mosaic and Netscape). Online marketplaces were born soon after (Amazon and Ebay, 1995) and the first WiFi invented and released in 1997.
+In 1982/83, the standard protocol for the exchange of information over networks was launched (TCP/IP), and adoption of this by ARPANET signified the birth of the internet. After the creation of the DNS (1984), the release of HTTP, URL and HTML spawned the World Wide Web in 1989/1990. The first web page was created in 1991. Two web browsers became available to the public in 1993/1994 (Mosaic and Netscape). Online marketplaces were born soon after (Amazon and Ebay, 1995) and the first WiFi invented and released in 1997.
 
 The spread of information made progress in 1998 (Google) as well as file sharing (Napster). In the 2000s, there were significant developments in how we connect (MySpace - 2003, Facebook - 2004, Twitter - 2006), how we consume media (YouTube - 2005), how portable the internet is (iPhone release in 2007) and the ways in which we access web services (mobile applications etc).
 
