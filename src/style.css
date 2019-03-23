@@ -15,7 +15,6 @@ body {
   font-size: 15pt;
 }
 
-
 body:not(.user-is-tabbing) button:focus,
 body:not(.user-is-tabbing) input:focus,
 body:not(.user-is-tabbing) select:focus,
@@ -37,8 +36,6 @@ button:hover {
   cursor:pointer;
 }
 
-
-
 button#navbar, button#navbar:focus {
   background: url('img/win98_dir.png') no-repeat transparent;
   background-size: 80%;
@@ -52,7 +49,7 @@ button#navbar, button#navbar:focus {
 }
 
 .nav-links button, .navlinks button:focus,
-#box1 button, #box1 button:focus,
+#portfolio-menu button, #portfolio-menu button:focus,
 h3 button, h3 button:focus {
   background: transparent;
   border: none;
@@ -230,8 +227,6 @@ h3 {
   float: right;
 }
 
-
-
 h2 {
   font-family: 'Anderson Black';
   padding-bottom: 30px;
@@ -257,16 +252,16 @@ a:active {
   background-color: #F12C05;
 }
 
-#box4 {
+#about-me-preamble {
   order: 2;
   margin-bottom: 30px;
 }
 
-#box5 {
+#about-me-main {
   order: 3;
 }
 
-#box6 {
+#about-me-imgs {
   width: 70%;
   max-width: 200px;
   order: 1;
@@ -274,21 +269,21 @@ a:active {
 
 }
 
-#box6 table {
+#about-me-imgs table {
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
-#box7 {
+#lets-connect {
   padding: 0px;
 }
 
-#box8 {
+#social-media-table {
   padding-top: 50px;
   margin: auto;
 }
 
-#box8 a {
+#social-media-table a {
   text-decoration: none;
 }
 
@@ -296,7 +291,7 @@ a:active {
   width: 100%;
 }
 
-#box8 td {
+#social-media-table td {
   color: #000000;
   font-size: 1em;
   padding-top: 0;
@@ -304,58 +299,56 @@ a:active {
   padding-bottom: 30px;
 }
 
-#box8 td i {
+#social-media-table td i {
   font-size: 3em;
   padding-bottom: 15px;
 }
 
-#box1 {
+#portfolio-menu {
   margin-bottom: 20px;
 }
 
-#box1 td {
+#portfolio-menu td {
   padding: 0px 20px 0px 0px;
 }
 
-#box1 table {
+#portfolio-menu table {
   padding-top: 10px;
 }
 
-#box1 ul {
+#portfolio-menu ul {
   list-style-image: url('img/win98_smalldoc.png');
   margin-left: 20px;
 }
 
-#box1 li:nth-child(1) {
+#portfolio-menu li:nth-child(1) {
   list-style-image: url('img/win98_console.png');
 }
 
-#box1 li:nth-child(3) {
+#portfolio-menu li:nth-child(3) {
   list-style-image: url('img/win98_smalldir.png');
 }
 
-#box1 td:nth-child(1) {
+#portfolio-menu td:nth-child(1) {
   text-align: right;
 }
 
-#box2 img {
+#portfolio-main img {
   width: 100%;
 }
 
 
-
-
-#box2 .section {display:none;}
-#box2.funpassgen .funpassgen,
-#box2.zen-garden .zen-garden,
-#box2.sketches .sketches,
-#box2.paper-1 .paper-1,
-#box2.circle-2 .circle-2,
-#box2.perlin-mountain-1 .perlin-mountain-1,
-#box2.flower-1 .flower-1,
-#box2.circle-1 .circle-1,
-#box2.sine-wave-1 .sine-wave-1,
-#box2.leslie .leslie {display: block;}
+#portfolio-main .section {display:none;}
+#portfolio-main.funpassgen .funpassgen,
+#portfolio-main.zen-garden .zen-garden,
+#portfolio-main.sketches .sketches,
+#portfolio-main.paper-1 .paper-1,
+#portfolio-main.circle-2 .circle-2,
+#portfolio-main.perlin-mountain-1 .perlin-mountain-1,
+#portfolio-main.flower-1 .flower-1,
+#portfolio-main.circle-1 .circle-1,
+#portfolio-main.sine-wave-1 .sine-wave-1,
+#portfolio-main.leslie .leslie {display: block;}
 
 td#watermelon {
   padding-top: 20px;
@@ -480,7 +473,7 @@ iframe {
     height: 30vh;
   }
 
-  #box6 {
+  #about-me-imgs {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
@@ -490,12 +483,12 @@ iframe {
 
   }
 
-  #box6a {
+  #profile-img {
     flex: 1 1 auto;
     width: 40%;
   }
 
-  #box6b {
+  #tech-stack-box {
     flex: 1 1 auto;
     width: 40%;
   }
@@ -532,21 +525,21 @@ iframe {
     justify-content: flex-start;
   }
 
-  #box1 {
+  #portfolio-menu {
     padding-right: 20px;
     flex: 1 1 auto;
     width: 10%;
     min-width: 280px;
   }
 
-  #box2 {
+  #portfolio-main {
     padding-left: 20px;
     flex: 1 1 auto;
     width: 50%;
   }
   
 
-  #box4 {
+  #about-me-preamble {
     flex: 1 1 auto;
     width: 20%;
     max-width: 300px;
@@ -555,7 +548,7 @@ iframe {
     order: 1;
   }
 
-  #box5 {
+  #about-me-main {
     flex: 1 1 auto;
     width: 40%;
     max-width: 800px;
@@ -564,7 +557,7 @@ iframe {
     order: 2;
   }
 
-  #box6 {
+  #about-me-imgs {
     flex: 1 1 auto;
     flex-direction: column;
     width: 20%;
@@ -575,21 +568,21 @@ iframe {
     order: 3;
   }
 
-  #box6 table {
+  #about-me-imgs table {
     padding-top: 30px;
     padding-bottom: 0px;
   }
 
-  #box6a {
+  #profile-img {
     width: 100%;
     min-width: 200px;
   }
 
-  #box6b {
+  #tech-stack-box {
     width: 100%;
   }
 
-  #box7, #box8 {
+  #lets-connect, #social-media-table {
     flex: 1 1 auto;
     width: 30%;
     max-width: 400px;

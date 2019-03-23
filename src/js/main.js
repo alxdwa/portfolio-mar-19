@@ -11,7 +11,7 @@ function myNavFunction(className) {
 }
 
 function showWork(projectName) {
-  document.getElementById('box2').className = projectName;
+  document.getElementById('portfolio-main').className = projectName;
   return false;
 }
 
