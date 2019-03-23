@@ -12,9 +12,16 @@ This README documents the development of my first personal and professional port
 
 Through this portfolio, I want to showcase my skills, attributes and personality in an effective, compelling and genuine way. This portfolio should and will be an important tool in networking, developing my personal brand and increasing my online presence. Its purpose is also to attract prospective internship providers, employers and collaborators. As such, it should be targeted to a wide audience spanning all demographics, and appeal to (and be accessible by) anyone irrespective of age, gender, ability, sexual orientation, race or religion. 
 
-### Functionality & Features ### 
+### Functionality & Sitemap ### 
 
-This portfolio is structured as a single-page website with 4 sections: a landing page, a page showcasing my work (portfolio), a page with details about myself (about/bio) and ways for people to get in touch with me (contact details). A navigation bar allows the user to move smoothly between sections on the website, but the user can also scroll between sections if preferred. 
+This portfolio is structured as a single-page website with 4 sections:
+
+* a landing page
+* a section showcasing my work ('Work'/'Portfolio')
+* a section with details about myself ('About'/'Alex Diwa'), and
+* a section with information for people to get in touch with me ('Contact')
+
+A navigation bar (pop-up for mobile devices) allows the user to move between sections on the website, but the user can also scroll between sections if preferred.
 
 ### Screenshots ### 
 
@@ -26,13 +33,50 @@ Below are screenshots of the portfolio as of Saturday March 23, 2019. Although t
 
 ### Tech Stack ### 
 
-This portfolio was built using HTML5, CSS3 and JavaScript. 
+This portfolio was built using HTML5, CSS3 and JavaScript. The site was deployed using [GitHub Pages](https://pages.github.com).
 
 ## Design & Planning ##
 
 ### Project Plan & Timeline ### 
 
-The portfolio needs to be deployed within the timeframe of one week, so careful time management was required. 
+The portfolio needs to be deployed within the timeframe of one week, so careful time management was required. This was a rough timeline anf plan that I drafted at the beginning of the week:
+
+Mon 18th:
+* Brainstorming
+* Wireframe mockup
+
+Tues 19th:
+* Finalise mockup and page layout for mobile and desktop
+* Draft sketches of design elements
+* Begin writing HTML backbone for mobile website
+* Code the navigation (JS)
+
+Weds 20th:
+* Write CSS for mobile site
+* Implement and position design elements
+* Begin adding media queries for desktop site
+
+Thurs 21st:
+* Finalise desktop site
+* Code portfolio/work navigation
+* Begin writing content
+
+Fri 22nd:  
+* Add content and screenshots/images of works
+* Implement accessibility measures
+* Optimise for tablet
+
+Sat 23rd:
+* Test site on as many browsers and screen sizes as possible
+* Research and answer diploma questions
+
+Sun 24th:
+* Finalise layout, add sprinkles
+* Tidy up code if need be
+* Submit
+
+Despite following the plan initially, I ended up reworking the site on the Thursday prior to commencing writing content, and in practice XXXXXXXXXXXXXXXXXXX More detailed to-do points can be seen in the trello screenshots provided here.
+
 
 ### Trello: Brainstorming & Agile Workflow ###
 
