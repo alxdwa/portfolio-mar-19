@@ -326,8 +326,14 @@ a:active {
 }
 
 #portfolio-menu li:nth-child(3) {
+  list-style-image: url('img/win98_docs.png');
+}
+
+#portfolio-menu li:nth-child(4) {
   list-style-image: url('img/win98_smalldir.png');
 }
+
+
 
 #portfolio-menu td:nth-child(1) {
   text-align: right;
@@ -341,6 +347,7 @@ a:active {
 #portfolio-main .section {display:none;}
 #portfolio-main.funpassgen .funpassgen,
 #portfolio-main.zen-garden .zen-garden,
+#portfolio-main.cocobuds .cocobuds,
 #portfolio-main.sketches .sketches,
 #portfolio-main.perlin-exp-1 .perlin-exp-1,
 #portfolio-main.paper-1 .paper-1,
