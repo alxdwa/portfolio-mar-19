@@ -18,18 +18,25 @@ function showWork(projectName) {
 function toggleDarkLight() {
   const body = document.querySelector('body');
   const moon = document.getElementById('moon');
-  
+  const work = document.getElementById('nav-work-bg');
+
   if (body.classList.contains('light-mode')) {
     body.classList.remove('light-mode');
     body.classList.add('dark-mode');
     moon.classList.remove('far');
     moon.classList.add('fas');
+    work.style.backgroundImage = "url('src/img/redbg2.svg')";
+    // work.style.backgroundSize = "60%";
+    // work.style.backgroundPosition = "top 10px right 10px";
   }
   else {
     body.classList.remove('dark-mode');
     body.classList.add('light-mode');
     moon.classList.remove('fas');
     moon.classList.add('far');
+    work.style.backgroundImage = "url('src/img/greybg2.svg')";
+    // work.style.backgroundSize = "60%";
+    // work.style.backgroundPosition = "top 10px right 10px";
   }
 }
 
