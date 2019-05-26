@@ -11,8 +11,8 @@
   <link rel="stylesheet" type="text/css" media="screen" href="src/style.css">
   <link rel="icon" href="src/img/browser_logo.png" />
   <script src="src/js/main.js"></script>
- </head>
-<body>
+</head>
+  <body class="light-mode">
 
   <nav role="navigation">
     <button id="navbar" role="menu" onclick="myNavFunction('.nav-links')">Navigation</button>
@@ -23,6 +23,7 @@
         <li><button onclick="myScrollFunction('.nav-contact')">Contact</button></li>
       </ul>
     </div>
+    <button class="mode" type="button" onclick="toggleDarkLight()" title="toggle light and dark modes"><i id="moon" class="far fa-moon"></i></button>
   </nav>
 
   <div class="landing-page">
