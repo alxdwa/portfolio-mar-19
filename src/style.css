@@ -453,9 +453,14 @@ iframe {
     position: absolute;
     bottom: 10px;
   }
+
+  /* moon */
+  #contact-links button {
+    margin-left: auto;
+  }
+
   #contact-links i {
     padding: 30px;
-    /* color: #000000; */
   }
 
   #navbar {
@@ -674,16 +679,24 @@ iframe {
   color: #DDDDDD;
 }
 
+.dark-mode .nav-links button {
+  color: #000000;
+}
+
+@media screen and (min-width: 550px) {
+  .dark-mode .nav-links button {
+    color: #DDDDDD;
+  }
+}
+
 .dark-mode .landing-page, .dark-mode #contact-links {
   background-color: #121111;
 }
 
 .mode {
-  position: fixed;
-  bottom: 10px;
-  right: 10px;
-  z-index: 3;
-  font-size: 1em;
+  font-size: 0.9em;
   border: 0;
   background: transparent;
+  margin: 0;
+  padding: 0;
 }
