@@ -323,11 +323,11 @@ a:active {
   list-style-image: url('img/win98_console.png');
 }
 
-#portfolio-menu li:nth-child(4) {
+#portfolio-menu li:nth-child(4), li:nth-child(5) {
   list-style-image: url('img/win98_docs.png');
 }
 
-#portfolio-menu li:nth-child(5) {
+#portfolio-menu li:nth-child(6) {
   list-style-image: url('img/win98_smalldir.png');
 }
 
@@ -347,6 +347,7 @@ a:active {
 #portfolio-main.zen-garden .zen-garden,
 #portfolio-main.portfolio .portfolio,
 #portfolio-main.cocobuds .cocobuds,
+#portfolio-main.healthfeed .healthfeed,
 #portfolio-main.sketches .sketches,
 #portfolio-main.perlin-exp-1 .perlin-exp-1,
 #portfolio-main.paper-1 .paper-1,
