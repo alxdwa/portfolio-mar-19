@@ -319,11 +319,11 @@ a:active {
   margin-left: 20px;
 }
 
-#portfolio-menu li:nth-child(1) {
+#portfolio-menu li:nth-child(5) {
   list-style-image: url('img/win98_console.png');
 }
 
-#portfolio-menu li:nth-child(4), li:nth-child(5) {
+#portfolio-menu li:nth-child(1), li:nth-child(2) {
   list-style-image: url('img/win98_docs.png');
 }
 
