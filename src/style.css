@@ -323,7 +323,7 @@ a:active {
   list-style-image: url('img/win98_console.png');
 }
 
-#portfolio-menu li:nth-child(1), li:nth-child(2) {
+#portfolio-menu li:nth-child(1), #portfolio-menu li:nth-child(2) {
   list-style-image: url('img/win98_docs.png');
 }
 
