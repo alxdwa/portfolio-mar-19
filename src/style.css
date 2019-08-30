@@ -319,15 +319,15 @@ a:active {
   margin-left: 20px;
 }
 
-#portfolio-menu li:nth-child(5) {
+#portfolio-menu li:nth-child(6) {
   list-style-image: url('img/win98_console.png');
 }
 
-#portfolio-menu li:nth-child(1), #portfolio-menu li:nth-child(2) {
+#portfolio-menu li:nth-child(1), #portfolio-menu li:nth-child(2), #portfolio-menu li:nth-child(3) {
   list-style-image: url('img/win98_docs.png');
 }
 
-#portfolio-menu li:nth-child(6) {
+#portfolio-menu li:nth-child(7) {
   list-style-image: url('img/win98_smalldir.png');
 }
 
@@ -348,6 +348,7 @@ a:active {
 #portfolio-main.portfolio .portfolio,
 #portfolio-main.cocobuds .cocobuds,
 #portfolio-main.healthfeed .healthfeed,
+#portfolio-main.healthbank .healthbank,
 #portfolio-main.sketches .sketches,
 #portfolio-main.perlin-exp-1 .perlin-exp-1,
 #portfolio-main.paper-1 .paper-1,
